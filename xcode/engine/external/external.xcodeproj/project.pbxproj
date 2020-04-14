@@ -1,0 +1,2649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6A42151CA8974CA892FEED96 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3989F08D39BB4A8F8AAB03AF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				02DC6741D88341E48169706A /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		DC23BBA6AB354EDF89237D6B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5C92AEAF511A4626B04999E3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				DD6BE51370DB44709D8DB513 /* CMake Rules */,
+			);
+			dependencies = (
+				62769AE5324044AC90F7E567 /* PBXTargetDependency */,
+				2C0AFA6EB6F046298A7C7953 /* PBXTargetDependency */,
+				6817DE3F0D374A4B886D866B /* PBXTargetDependency */,
+				B14E6EF5D034470480AAE35A /* PBXTargetDependency */,
+				888CB230D3EF465584308115 /* PBXTargetDependency */,
+				0C11942715DA4B7EA9C8F873 /* PBXTargetDependency */,
+				A675E9B50E73428CAD5DD86E /* PBXTargetDependency */,
+				43BA1A76D13142FF8C982A95 /* PBXTargetDependency */,
+				58228AC7A2AE412A9EC53602 /* PBXTargetDependency */,
+				8F370A0D4E49496DB963AC3E /* PBXTargetDependency */,
+				70A0EA67C71049F78D7D35FE /* PBXTargetDependency */,
+				734FDBB156894B828D945C7B /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0577E3137C634E03B0D48147 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXBuildFile; fileRef = AA1FC316ED8A47038A2320E6 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */; };
+		09E013AE92784B5AB7C88206 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/empty.cpp */ = {isa = PBXBuildFile; fileRef = EA88FDF6F503401C9FBA19DD /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/empty.cpp */; };
+		0E02ED6C97994E13862B88AE /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 49E9758A64914C96A9E85C1F /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/xxhash/CMakeLists.txt */; };
+		0FDD0BAED2144ACC9C951C3F /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DBB0FF1ADED34F72BF2D93D2 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/clipper/CMakeLists.txt */; };
+		1AA161D2C9BB4EACBE21A5D5 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 684B0BD099F64A3AA1375805 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */; };
+		2150755AA6754AC4B72FC256 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 6DFE909272D04474A3E33A99 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */; };
+		22696FEABA874B21A79DD9C1 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXBuildFile; fileRef = 40DE5C4B881746A09DB3C198 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/clipper/clipper.cpp */; };
+		25CEF9D4DA804083B9468A57 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXBuildFile; fileRef = B3F7B48B6A8248FC98484616 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourNavMesh.cpp */; };
+		266FF7A1CD054E62951E72C5 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXBuildFile; fileRef = BDF5B49B52EB4515997C1A77 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */; };
+		2C3C6E2DF1CB440E83D17736 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXBuildFile; fileRef = E2AD55C3A00F4C459024D715 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/ConvertUTF/ConvertUTF.c */; };
+		30EE6B4DEA4C43FAAEB1B77B /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXBuildFile; fileRef = A335F2E71D3A442E9844F6CC /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */; };
+		3C783402B74E4944A139F9CE /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXBuildFile; fileRef = E0F81387314F4F86AA0A7371 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */; };
+		3DCF877027D3425E96CA6502 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXBuildFile; fileRef = 9C406E59B418442C95CD1343 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/sweep/sweep.cc */; };
+		44A6323498654F61B2A1BB79 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9D429A45BB5A432289931A56 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/CMakeLists.txt */; };
+		563A5FF9720F4AACA5E17167 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXBuildFile; fileRef = C2135EC8958940519DC8C75C /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/xxtea/xxtea.cpp */; };
+		5AF4D33222F542E9914ACB4B /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXBuildFile; fileRef = C525E359FAE54A1BB9040809 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourAlloc.cpp */; };
+		60F35E23C7AE4B35BC40998B /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXBuildFile; fileRef = 8FADCF61E6D344489A8539C5 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/tinyxml2/tinyxml2.cpp */; };
+		63B7C1C71BBF4AA1B555BF47 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXBuildFile; fileRef = C363D5FFF90140A7B8D615D7 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/unzip.cpp */; };
+		648543A90F7E4CB99667A04C /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXBuildFile; fileRef = 95176B66805A4DF89164D4A8 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/sweep/cdt.cc */; };
+		6845974B410D4529861C5B99 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXBuildFile; fileRef = 63BE765194CF45729A80E610 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/edtaa3func/edtaa3func.cpp */; };
+		70B445C36E984F258535E5CF /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXBuildFile; fileRef = 18C7072861014ED6A44073C2 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */; };
+		717079DAA3CD4725846D1E07 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXBuildFile; fileRef = 50468CF4543D4EB4B91024CA /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/common/shapes.cc */; };
+		72CC6C743311455BB48D8CF1 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXBuildFile; fileRef = 9C3B003547DE454C80C987A9 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */; };
+		7E53B218AB9A4585B5AB7D79 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXBuildFile; fileRef = BEFAFECDE7E444E7902D57F7 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */; };
+		8A2F816765D94FA1AFA209B6 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6066380667F24986B129FA2E /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/CMakeLists.txt */; };
+		8A417E0B08B245DD8F60611E /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXBuildFile; fileRef = F56DD062CDCA46C9BA8894EC /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */; };
+		902E1EA6E52440DD9CA3C938 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXBuildFile; fileRef = 7FC43D22C6A748D698AE01A3 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/ioapi.cpp */; };
+		957FD66647E54990AD980A25 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXBuildFile; fileRef = C8FD148FA34D47108C21EDB1 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourCommon.cpp */; };
+		9E41E082E1634374A7058D93 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/md5/md5.c */ = {isa = PBXBuildFile; fileRef = 8341E2448A5641B3B0D0F8F3 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/md5/md5.c */; };
+		9F0CE7DAFA5C41ABA2959C07 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C8663CEC818344BEAB0E51DF /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/xxtea/CMakeLists.txt */; };
+		B2A30B337D454B43AD8F3696 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9EE40D3F91384BB6B1F2D85D /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/CMakeLists.txt */; };
+		B7AD13F5D6D540B0927B2A7C /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 3C332AA0F4594D43B06E3003 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */; };
+		B87EFE85446643BF8B036E91 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0E85964D6404483E8DB9682E /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/tinyxml2/CMakeLists.txt */; };
+		BB880C152E9B49D4B3F991B3 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 341ED8A7960140D38A866E3D /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/ConvertUTF/CMakeLists.txt */; };
+		C3B241E8F12C4090AD634E1A /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXBuildFile; fileRef = E99755F23B074610BBFAED2C /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */; };
+		C5E7AFDBAE764FCF8F6624B1 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXBuildFile; fileRef = 6B5AAC3D3B994F56A4171F7A /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourNode.cpp */; };
+		C7922F596A004AB08F8FCA12 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXBuildFile; fileRef = B6AD97FD4A3144C4808CB315 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/sweep/advancing_front.cc */; };
+		C99898B5795B41D2BBDE29A9 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXBuildFile; fileRef = 24BC87D7EB57460D93196087 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/ioapi_mem.cpp */; };
+		CA7904D5EBF8461490126742 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 50C79AE86B5046928D7429DC /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/md5/CMakeLists.txt */; };
+		D9F5FECAB36244B3B9D2EFDE /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXBuildFile; fileRef = E1B089A2E05243F2A22673EC /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/xxhash/xxhash.c */; };
+		E9331BDB051B440ABAAF3FDD /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4539DEB0D5B64ED79D8C0FC5 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/CMakeLists.txt */; };
+		E95AF9A21D93455495BBB6A7 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXBuildFile; fileRef = CC7901183FA34DFDA6B8EEFE /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */; };
+		F7B7E1EFBB52492DBA95CCE7 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXBuildFile; fileRef = EF4856EFA6FE480D8B23FA41 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/sweep/sweep_context.cc */; };
+		F983B8BCAF1148AAA537229E /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXBuildFile; fileRef = D86FD35CDF3945A29F112545 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/fastlz/fastlz.c */; };
+		F9C76BAEB5964F1EB1A6EEDB /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1591417E07AE418D9C85A19D /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/edtaa3func/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		5ECC91C174FD4EDE8321538C /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		9F19AEB881704A1480A533AD /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		A340B4E0CB1C47D58278D31A /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		C8B47D336C07464A9A2D2A5F /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2141494E95C64CD491FB2E26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A42151CA8974CA892FEED96;
+			remoteInfo = ZERO_CHECK;
+		};
+		23E8FEC9D626433DAB7608B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F6EB58EB490415986724AED;
+			remoteInfo = ext_convertUTF;
+		};
+		267D0C74B30E43CA996BB843 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B86593D4D9941F78FF581FD;
+			remoteInfo = ext_poly2tri;
+		};
+		2C43E4D8F5234107B41DEA7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34084C22BCBF485B8522F204;
+			remoteInfo = ext_unzip;
+		};
+		4B2E179F06C14EA185C7AE58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E8EECFA23584A19B6AC8E0A;
+			remoteInfo = ext_xxtea;
+		};
+		63069FA6AB6F466F96A0C779 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55B8F76F773049E69C1C2045;
+			remoteInfo = ext_md5;
+		};
+		6A34AF2C466B4B2AAE086BDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93809C476A50479F8642AC5D;
+			remoteInfo = ext_clipper;
+		};
+		6FC2F1747B184E9CBB59D851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 338D787E6E554C1C90EB07C5;
+			remoteInfo = ext_xxhash;
+		};
+		7DD741CD2F40462E9C7ECFFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 338D787E6E554C1C90EB07C5;
+			remoteInfo = ext_xxhash;
+		};
+		8494BDA872844149A9B83E83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A42151CA8974CA892FEED96;
+			remoteInfo = ZERO_CHECK;
+		};
+		8CF57869CDC54955B9B0D503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 131A30536865469C88C9A0EC;
+			remoteInfo = ext_recast;
+		};
+		8D3F9D50226F40408F9233D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B86593D4D9941F78FF581FD;
+			remoteInfo = ext_poly2tri;
+		};
+		A3AEC06FA70744BD838B1F36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A6AD0A6A9BE46EF9B91B295;
+			remoteInfo = ext_edtaa3func;
+		};
+		A6D750599F4A436F9754FFCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7E8F0F15155448585E58238;
+			remoteInfo = ext_tinyxml2;
+		};
+		BAB7DDA4ED2F409F8551A8BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E8EECFA23584A19B6AC8E0A;
+			remoteInfo = ext_xxtea;
+		};
+		BE243570A689488C9FB320CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F6EB58EB490415986724AED;
+			remoteInfo = ext_convertUTF;
+		};
+		C131C30A79D94110BB1A70E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7E8F0F15155448585E58238;
+			remoteInfo = ext_tinyxml2;
+		};
+		CB92E5F23996410595EA6718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34084C22BCBF485B8522F204;
+			remoteInfo = ext_unzip;
+		};
+		CD873FA70B3C4390BD90D936 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93809C476A50479F8642AC5D;
+			remoteInfo = ext_clipper;
+		};
+		CDB2F1BAEC8948EBAB700AE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C2A56C49BC04E3D9C5930FB;
+			remoteInfo = external;
+		};
+		DBBA78199D4043819292377C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55B8F76F773049E69C1C2045;
+			remoteInfo = ext_md5;
+		};
+		E289A455B9B24334BBAD4882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 131A30536865469C88C9A0EC;
+			remoteInfo = ext_recast;
+		};
+		F0D175C0C95B40ACBC9131FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50144619D5B54D70AA6F330E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A6AD0A6A9BE46EF9B91B295;
+			remoteInfo = ext_edtaa3func;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E85964D6404483E8DB9682E /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tinyxml2/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0FCB1BBE061E4AD4B03102CD /* external */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libexternal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		139FCD6C13694D2D8A3095CE /* ext_xxtea */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxtea.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1591417E07AE418D9C85A19D /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = edtaa3func/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		18C7072861014ED6A44073C2 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourLocalBoundary.cpp; path = recast/DetourCrowd/DetourLocalBoundary.cpp; sourceTree = SOURCE_ROOT; };
+		210F09A14F43436FA6DD0B24 /* ext_poly2tri */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_poly2tri.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		24BC87D7EB57460D93196087 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi_mem.cpp; path = unzip/ioapi_mem.cpp; sourceTree = SOURCE_ROOT; };
+		31575CA5527D4E30B83397F6 /* ext_recast */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_recast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		341ED8A7960140D38A866E3D /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = ConvertUTF/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3C332AA0F4594D43B06E3003 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshBuilder.cpp; path = recast/Detour/DetourNavMeshBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		40DE5C4B881746A09DB3C198 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clipper.cpp; path = clipper/clipper.cpp; sourceTree = SOURCE_ROOT; };
+		4539DEB0D5B64ED79D8C0FC5 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = unzip/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		49E9758A64914C96A9E85C1F /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxhash/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		50468CF4543D4EB4B91024CA /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shapes.cc; path = poly2tri/common/shapes.cc; sourceTree = SOURCE_ROOT; };
+		50C79AE86B5046928D7429DC /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = md5/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6066380667F24986B129FA2E /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		63BE765194CF45729A80E610 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = edtaa3func.cpp; path = edtaa3func/edtaa3func.cpp; sourceTree = SOURCE_ROOT; };
+		684B0BD099F64A3AA1375805 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourDebugDraw.cpp; path = recast/DebugUtils/DetourDebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		6B5AAC3D3B994F56A4171F7A /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNode.cpp; path = recast/Detour/DetourNode.cpp; sourceTree = SOURCE_ROOT; };
+		6BD4399437C64D468525A89C /* ext_md5 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_md5.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DFE909272D04474A3E33A99 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DebugDraw.cpp; path = recast/DebugUtils/DebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		783652BB01034FC487D7183A /* ext_clipper */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_clipper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC43D22C6A748D698AE01A3 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi.cpp; path = unzip/ioapi.cpp; sourceTree = SOURCE_ROOT; };
+		8341E2448A5641B3B0D0F8F3 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/md5/md5.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = md5.c; path = md5/md5.c; sourceTree = SOURCE_ROOT; };
+		8E5C4F3535154A159E2EFFC3 /* ext_edtaa3func */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_edtaa3func.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FADCF61E6D344489A8539C5 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = tinyxml2/tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+		95176B66805A4DF89164D4A8 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cdt.cc; path = poly2tri/sweep/cdt.cc; sourceTree = SOURCE_ROOT; };
+		9C3B003547DE454C80C987A9 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathQueue.cpp; path = recast/DetourCrowd/DetourPathQueue.cpp; sourceTree = SOURCE_ROOT; };
+		9C406E59B418442C95CD1343 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep.cc; path = poly2tri/sweep/sweep.cc; sourceTree = SOURCE_ROOT; };
+		9D429A45BB5A432289931A56 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = poly2tri/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9EE40D3F91384BB6B1F2D85D /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = recast/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A335F2E71D3A442E9844F6CC /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourProximityGrid.cpp; path = recast/DetourCrowd/DetourProximityGrid.cpp; sourceTree = SOURCE_ROOT; };
+		A77A9B7D510D41728076E71B /* ext_convertUTF */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_convertUTF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DE5FB8D9A9497287AEA3C0 /* ext_tinyxml2 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_tinyxml2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1FC316ED8A47038A2320E6 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathCorridor.cpp; path = recast/DetourCrowd/DetourPathCorridor.cpp; sourceTree = SOURCE_ROOT; };
+		B3F7B48B6A8248FC98484616 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMesh.cpp; path = recast/Detour/DetourNavMesh.cpp; sourceTree = SOURCE_ROOT; };
+		B6AD97FD4A3144C4808CB315 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = advancing_front.cc; path = poly2tri/sweep/advancing_front.cc; sourceTree = SOURCE_ROOT; };
+		BDF5B49B52EB4515997C1A77 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCacheBuilder.cpp; path = recast/DetourTileCache/DetourTileCacheBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		BEFAFECDE7E444E7902D57F7 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourObstacleAvoidance.cpp; path = recast/DetourCrowd/DetourObstacleAvoidance.cpp; sourceTree = SOURCE_ROOT; };
+		C2135EC8958940519DC8C75C /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xxtea.cpp; path = xxtea/xxtea.cpp; sourceTree = SOURCE_ROOT; };
+		C363D5FFF90140A7B8D615D7 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unzip.cpp; path = unzip/unzip.cpp; sourceTree = SOURCE_ROOT; };
+		C525E359FAE54A1BB9040809 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourAlloc.cpp; path = recast/Detour/DetourAlloc.cpp; sourceTree = SOURCE_ROOT; };
+		C8663CEC818344BEAB0E51DF /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxtea/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C8FD148FA34D47108C21EDB1 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCommon.cpp; path = recast/Detour/DetourCommon.cpp; sourceTree = SOURCE_ROOT; };
+		CC7901183FA34DFDA6B8EEFE /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConvertUTFWrapper.cpp; path = ConvertUTF/ConvertUTFWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		D86FD35CDF3945A29F112545 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fastlz.c; path = recast/fastlz/fastlz.c; sourceTree = SOURCE_ROOT; };
+		DBB0FF1ADED34F72BF2D93D2 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = clipper/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DD9C244788A241D6B1DDE854 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E0F81387314F4F86AA0A7371 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCrowd.cpp; path = recast/DetourCrowd/DetourCrowd.cpp; sourceTree = SOURCE_ROOT; };
+		E1B089A2E05243F2A22673EC /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xxhash.c; path = xxhash/xxhash.c; sourceTree = SOURCE_ROOT; };
+		E207274336694D9C9BD9E6ED /* ext_xxhash */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxhash.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2AD55C3A00F4C459024D715 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ConvertUTF.c; path = ConvertUTF/ConvertUTF.c; sourceTree = SOURCE_ROOT; };
+		E99755F23B074610BBFAED2C /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshQuery.cpp; path = recast/Detour/DetourNavMeshQuery.cpp; sourceTree = SOURCE_ROOT; };
+		EA88FDF6F503401C9FBA19DD /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/empty.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = empty.cpp; path = empty.cpp; sourceTree = SOURCE_ROOT; };
+		EEDB232A987E4C1C9678D152 /* ext_unzip */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_unzip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4856EFA6FE480D8B23FA41 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep_context.cc; path = poly2tri/sweep/sweep_context.cc; sourceTree = SOURCE_ROOT; };
+		F56DD062CDCA46C9BA8894EC /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCache.cpp; path = recast/DetourTileCache/DetourTileCache.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00E1038C6D054234A4681A20 = {
+			isa = PBXGroup;
+			children = (
+				01B3D8F20B0C435EBCBF733B /* External */,
+				61B1831AF2CF455FAFBEE915 /* ALL_BUILD */,
+				AC4B1A257973466CA16914A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01B3D8F20B0C435EBCBF733B /* External */ = {
+			isa = PBXGroup;
+			children = (
+				6B099717D8E94FA09FE3C59A /* external */,
+				25A41D15182D4769ADC0CCB0 /* ext_recast */,
+				553BF60F701248968A6D1E93 /* ext_tinyxml2 */,
+				3F613E801B53428D973D2666 /* ext_xxhash */,
+				ACC6787D507840D8922220B9 /* ext_xxtea */,
+				D2C588C2D410406EA5E2826D /* ext_clipper */,
+				4B3AE0C7D639478195EBCA15 /* ext_edtaa3func */,
+				3A3CFCDC2327461198054324 /* ext_convertUTF */,
+				3D42F2B9DDFE416393FE6F84 /* ext_poly2tri */,
+				0D80B3ACB4464551A0C25549 /* ext_md5 */,
+				E874FC4A57D649BEAEBE2A01 /* ext_unzip */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		06AACF4C037F4F9293730137 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				63BE765194CF45729A80E610 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		0D80B3ACB4464551A0C25549 /* ext_md5 */ = {
+			isa = PBXGroup;
+			children = (
+				F13085113834430996BB486A /* Source Files */,
+				50C79AE86B5046928D7429DC /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/md5/CMakeLists.txt */,
+			);
+			name = ext_md5;
+			sourceTree = "<group>";
+		};
+		138A4BAF06E24CB981C2D18B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DFE909272D04474A3E33A99 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				684B0BD099F64A3AA1375805 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				C525E359FAE54A1BB9040809 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				C8FD148FA34D47108C21EDB1 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				B3F7B48B6A8248FC98484616 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				3C332AA0F4594D43B06E3003 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				E99755F23B074610BBFAED2C /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				6B5AAC3D3B994F56A4171F7A /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				E0F81387314F4F86AA0A7371 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				18C7072861014ED6A44073C2 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				BEFAFECDE7E444E7902D57F7 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				AA1FC316ED8A47038A2320E6 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				9C3B003547DE454C80C987A9 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				A335F2E71D3A442E9844F6CC /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				F56DD062CDCA46C9BA8894EC /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				BDF5B49B52EB4515997C1A77 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				D86FD35CDF3945A29F112545 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		25A41D15182D4769ADC0CCB0 /* ext_recast */ = {
+			isa = PBXGroup;
+			children = (
+				138A4BAF06E24CB981C2D18B /* Source Files */,
+				9EE40D3F91384BB6B1F2D85D /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/CMakeLists.txt */,
+			);
+			name = ext_recast;
+			sourceTree = "<group>";
+		};
+		3A3CFCDC2327461198054324 /* ext_convertUTF */ = {
+			isa = PBXGroup;
+			children = (
+				7AE0B848C97E464DB602DAE5 /* Source Files */,
+				341ED8A7960140D38A866E3D /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/ConvertUTF/CMakeLists.txt */,
+			);
+			name = ext_convertUTF;
+			sourceTree = "<group>";
+		};
+		3D42F2B9DDFE416393FE6F84 /* ext_poly2tri */ = {
+			isa = PBXGroup;
+			children = (
+				976BACB8347248F29B11F46A /* Source Files */,
+				9D429A45BB5A432289931A56 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/CMakeLists.txt */,
+			);
+			name = ext_poly2tri;
+			sourceTree = "<group>";
+		};
+		3F613E801B53428D973D2666 /* ext_xxhash */ = {
+			isa = PBXGroup;
+			children = (
+				6436F38062F24ACAB319DD88 /* Source Files */,
+				49E9758A64914C96A9E85C1F /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/xxhash/CMakeLists.txt */,
+			);
+			name = ext_xxhash;
+			sourceTree = "<group>";
+		};
+		44ED05E6F514452E9634EA48 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				40DE5C4B881746A09DB3C198 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/clipper/clipper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4B3AE0C7D639478195EBCA15 /* ext_edtaa3func */ = {
+			isa = PBXGroup;
+			children = (
+				06AACF4C037F4F9293730137 /* Source Files */,
+				1591417E07AE418D9C85A19D /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/edtaa3func/CMakeLists.txt */,
+			);
+			name = ext_edtaa3func;
+			sourceTree = "<group>";
+		};
+		553BF60F701248968A6D1E93 /* ext_tinyxml2 */ = {
+			isa = PBXGroup;
+			children = (
+				B29AC2DCE4D043DDBB8E5247 /* Source Files */,
+				0E85964D6404483E8DB9682E /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/tinyxml2/CMakeLists.txt */,
+			);
+			name = ext_tinyxml2;
+			sourceTree = "<group>";
+		};
+		61B1831AF2CF455FAFBEE915 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				74F9302AA9BB46F1BD993FED /* CMake Rules */,
+				DD9C244788A241D6B1DDE854 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		6436F38062F24ACAB319DD88 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1B089A2E05243F2A22673EC /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/xxhash/xxhash.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6B099717D8E94FA09FE3C59A /* external */ = {
+			isa = PBXGroup;
+			children = (
+				78145E00C3DC4882BCB12F8E /* Source Files */,
+				6066380667F24986B129FA2E /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/CMakeLists.txt */,
+			);
+			name = external;
+			sourceTree = "<group>";
+		};
+		74F9302AA9BB46F1BD993FED /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		78145E00C3DC4882BCB12F8E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA88FDF6F503401C9FBA19DD /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/empty.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7AE0B848C97E464DB602DAE5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2AD55C3A00F4C459024D715 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				CC7901183FA34DFDA6B8EEFE /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		90F29CBE59C34FD7BCAD221C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FC43D22C6A748D698AE01A3 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/ioapi.cpp */,
+				24BC87D7EB57460D93196087 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/ioapi_mem.cpp */,
+				C363D5FFF90140A7B8D615D7 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/unzip.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		976BACB8347248F29B11F46A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				50468CF4543D4EB4B91024CA /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/common/shapes.cc */,
+				B6AD97FD4A3144C4808CB315 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				95176B66805A4DF89164D4A8 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				9C406E59B418442C95CD1343 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				EF4856EFA6FE480D8B23FA41 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		AC4B1A257973466CA16914A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				783652BB01034FC487D7183A /* ext_clipper */,
+				A77A9B7D510D41728076E71B /* ext_convertUTF */,
+				8E5C4F3535154A159E2EFFC3 /* ext_edtaa3func */,
+				6BD4399437C64D468525A89C /* ext_md5 */,
+				210F09A14F43436FA6DD0B24 /* ext_poly2tri */,
+				31575CA5527D4E30B83397F6 /* ext_recast */,
+				A7DE5FB8D9A9497287AEA3C0 /* ext_tinyxml2 */,
+				EEDB232A987E4C1C9678D152 /* ext_unzip */,
+				E207274336694D9C9BD9E6ED /* ext_xxhash */,
+				139FCD6C13694D2D8A3095CE /* ext_xxtea */,
+				0FCB1BBE061E4AD4B03102CD /* external */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACA87FCE25004635B22C76A6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2135EC8958940519DC8C75C /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		ACC6787D507840D8922220B9 /* ext_xxtea */ = {
+			isa = PBXGroup;
+			children = (
+				ACA87FCE25004635B22C76A6 /* Source Files */,
+				C8663CEC818344BEAB0E51DF /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/xxtea/CMakeLists.txt */,
+			);
+			name = ext_xxtea;
+			sourceTree = "<group>";
+		};
+		B29AC2DCE4D043DDBB8E5247 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FADCF61E6D344489A8539C5 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D2C588C2D410406EA5E2826D /* ext_clipper */ = {
+			isa = PBXGroup;
+			children = (
+				44ED05E6F514452E9634EA48 /* Source Files */,
+				DBB0FF1ADED34F72BF2D93D2 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/clipper/CMakeLists.txt */,
+			);
+			name = ext_clipper;
+			sourceTree = "<group>";
+		};
+		E874FC4A57D649BEAEBE2A01 /* ext_unzip */ = {
+			isa = PBXGroup;
+			children = (
+				90F29CBE59C34FD7BCAD221C /* Source Files */,
+				4539DEB0D5B64ED79D8C0FC5 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/CMakeLists.txt */,
+			);
+			name = ext_unzip;
+			sourceTree = "<group>";
+		};
+		F13085113834430996BB486A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8341E2448A5641B3B0D0F8F3 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/md5/md5.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		131A30536865469C88C9A0EC /* ext_recast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF6A242DA437404E9C900E71 /* Build configuration list for PBXNativeTarget "ext_recast" */;
+			buildPhases = (
+				00CC6ADBC0554D8EABAD891D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_recast;
+			productName = ext_recast;
+			productReference = 31575CA5527D4E30B83397F6 /* ext_recast */;
+			productType = "com.apple.product-type.library.static";
+		};
+		338D787E6E554C1C90EB07C5 /* ext_xxhash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F435CA70E38409596CCA01E /* Build configuration list for PBXNativeTarget "ext_xxhash" */;
+			buildPhases = (
+				6678A3313CCD4260A2560C34 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxhash;
+			productName = ext_xxhash;
+			productReference = E207274336694D9C9BD9E6ED /* ext_xxhash */;
+			productType = "com.apple.product-type.library.static";
+		};
+		34084C22BCBF485B8522F204 /* ext_unzip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF224B98DC446A98B009A62 /* Build configuration list for PBXNativeTarget "ext_unzip" */;
+			buildPhases = (
+				EBBE166CB30C41ABAD755199 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_unzip;
+			productName = ext_unzip;
+			productReference = EEDB232A987E4C1C9678D152 /* ext_unzip */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4F6EB58EB490415986724AED /* ext_convertUTF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335BA727C13149B9851D4F18 /* Build configuration list for PBXNativeTarget "ext_convertUTF" */;
+			buildPhases = (
+				7D9955C105074B698E3CEEEC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_convertUTF;
+			productName = ext_convertUTF;
+			productReference = A77A9B7D510D41728076E71B /* ext_convertUTF */;
+			productType = "com.apple.product-type.library.static";
+		};
+		55B8F76F773049E69C1C2045 /* ext_md5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090FC148C36A4D3F9F702BE6 /* Build configuration list for PBXNativeTarget "ext_md5" */;
+			buildPhases = (
+				35FC7D64F8DE457A82FFF603 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_md5;
+			productName = ext_md5;
+			productReference = 6BD4399437C64D468525A89C /* ext_md5 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8B86593D4D9941F78FF581FD /* ext_poly2tri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89E984E3E1894BE58ABFD101 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */;
+			buildPhases = (
+				4AD167F52E2C4D62BEDBB8A3 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_poly2tri;
+			productName = ext_poly2tri;
+			productReference = 210F09A14F43436FA6DD0B24 /* ext_poly2tri */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8C2A56C49BC04E3D9C5930FB /* external */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05D6DBD10E5C463D9F1726BA /* Build configuration list for PBXNativeTarget "external" */;
+			buildPhases = (
+				F9304C555A1B4AE8BB2123F0 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				982AC1395F3F47EDAF1AF2E1 /* PBXTargetDependency */,
+				32ED21BBFE6A42409246E4CF /* PBXTargetDependency */,
+				FFAE0ED495B8401DA6E2B3EB /* PBXTargetDependency */,
+				4B03B21074E9424EB221A062 /* PBXTargetDependency */,
+				CB749E728D024A18AAA75C03 /* PBXTargetDependency */,
+				9F4E0AB4C45441258DC16441 /* PBXTargetDependency */,
+				72730B926947405E952B7BEC /* PBXTargetDependency */,
+				2BFE0B77377B4065810BC98D /* PBXTargetDependency */,
+				3EAFEEBF6EF94D4F848841D9 /* PBXTargetDependency */,
+				05B9D9C059CA42E08FD412C6 /* PBXTargetDependency */,
+				A1012D256F6D438EB5C65CAF /* PBXTargetDependency */,
+			);
+			name = external;
+			productName = external;
+			productReference = 0FCB1BBE061E4AD4B03102CD /* external */;
+			productType = "com.apple.product-type.library.static";
+		};
+		93809C476A50479F8642AC5D /* ext_clipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E467941B74A1415FB271DFC0 /* Build configuration list for PBXNativeTarget "ext_clipper" */;
+			buildPhases = (
+				89DE54DC62544F76AD704222 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_clipper;
+			productName = ext_clipper;
+			productReference = 783652BB01034FC487D7183A /* ext_clipper */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9A6AD0A6A9BE46EF9B91B295 /* ext_edtaa3func */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82B5A4CCB7A74323BF6363BB /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */;
+			buildPhases = (
+				8678A0CB1BAC4484B143C6E4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_edtaa3func;
+			productName = ext_edtaa3func;
+			productReference = 8E5C4F3535154A159E2EFFC3 /* ext_edtaa3func */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9E8EECFA23584A19B6AC8E0A /* ext_xxtea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372E98F6B37643219690BCE2 /* Build configuration list for PBXNativeTarget "ext_xxtea" */;
+			buildPhases = (
+				E210DB0BCFB140F1A6F4A089 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxtea;
+			productName = ext_xxtea;
+			productReference = 139FCD6C13694D2D8A3095CE /* ext_xxtea */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E7E8F0F15155448585E58238 /* ext_tinyxml2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82A1D3417BF400CAC596627 /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */;
+			buildPhases = (
+				E81A15CD2E5A4FEA866FDD4A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_tinyxml2;
+			productName = ext_tinyxml2;
+			productReference = A7DE5FB8D9A9497287AEA3C0 /* ext_tinyxml2 */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50144619D5B54D70AA6F330E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 43F94DB259B54D9DAE45532D /* Build configuration list for PBXProject "external" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				9F19AEB881704A1480A533AD /* Debug */,
+				5ECC91C174FD4EDE8321538C /* Release */,
+				C8B47D336C07464A9A2D2A5F /* MinSizeRel */,
+				A340B4E0CB1C47D58278D31A /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 00E1038C6D054234A4681A20;
+			projectDirPath = ../../../cocos2d/external;
+			projectRoot = "";
+			targets = (
+				DC23BBA6AB354EDF89237D6B /* ALL_BUILD */,
+				6A42151CA8974CA892FEED96 /* ZERO_CHECK */,
+				93809C476A50479F8642AC5D /* ext_clipper */,
+				4F6EB58EB490415986724AED /* ext_convertUTF */,
+				9A6AD0A6A9BE46EF9B91B295 /* ext_edtaa3func */,
+				55B8F76F773049E69C1C2045 /* ext_md5 */,
+				8B86593D4D9941F78FF581FD /* ext_poly2tri */,
+				131A30536865469C88C9A0EC /* ext_recast */,
+				E7E8F0F15155448585E58238 /* ext_tinyxml2 */,
+				34084C22BCBF485B8522F204 /* ext_unzip */,
+				338D787E6E554C1C90EB07C5 /* ext_xxhash */,
+				9E8EECFA23584A19B6AC8E0A /* ext_xxtea */,
+				8C2A56C49BC04E3D9C5930FB /* external */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02DC6741D88341E48169706A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/arlex/Documents/Project/MyGame/xcode/engine/external -f /Users/arlex/Documents/Project/MyGame/xcode/engine/external/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		89EA762E212A4CAF84D1FC04 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CF3255B1F6AE4581AD6AD939 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		DD6BE51370DB44709D8DB513 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/arlex/Documents/Project/MyGame/xcode/engine/external -f /Users/arlex/Documents/Project/MyGame/xcode/engine/external/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00CC6ADBC0554D8EABAD891D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2150755AA6754AC4B72FC256 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				1AA161D2C9BB4EACBE21A5D5 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				5AF4D33222F542E9914ACB4B /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				957FD66647E54990AD980A25 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				25CEF9D4DA804083B9468A57 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				B7AD13F5D6D540B0927B2A7C /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				C3B241E8F12C4090AD634E1A /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				C5E7AFDBAE764FCF8F6624B1 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				3C783402B74E4944A139F9CE /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				70B445C36E984F258535E5CF /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				7E53B218AB9A4585B5AB7D79 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				0577E3137C634E03B0D48147 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				72CC6C743311455BB48D8CF1 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				30EE6B4DEA4C43FAAEB1B77B /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				8A417E0B08B245DD8F60611E /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				266FF7A1CD054E62951E72C5 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				F983B8BCAF1148AAA537229E /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35FC7D64F8DE457A82FFF603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E41E082E1634374A7058D93 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/md5/md5.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD167F52E2C4D62BEDBB8A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717079DAA3CD4725846D1E07 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/common/shapes.cc */,
+				C7922F596A004AB08F8FCA12 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				648543A90F7E4CB99667A04C /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				3DCF877027D3425E96CA6502 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				F7B7E1EFBB52492DBA95CCE7 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6678A3313CCD4260A2560C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F5FECAB36244B3B9D2EFDE /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/xxhash/xxhash.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D9955C105074B698E3CEEEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3C6E2DF1CB440E83D17736 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				E95AF9A21D93455495BBB6A7 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8678A0CB1BAC4484B143C6E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6845974B410D4529861C5B99 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DE54DC62544F76AD704222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22696FEABA874B21A79DD9C1 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/clipper/clipper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E210DB0BCFB140F1A6F4A089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563A5FF9720F4AACA5E17167 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81A15CD2E5A4FEA866FDD4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F35E23C7AE4B35BC40998B /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBE166CB30C41ABAD755199 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902E1EA6E52440DD9CA3C938 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/ioapi.cpp */,
+				C99898B5795B41D2BBDE29A9 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/ioapi_mem.cpp */,
+				63B7C1C71BBF4AA1B555BF47 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/unzip.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9304C555A1B4AE8BB2123F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E013AE92784B5AB7C88206 /* /Users/arlex/Documents/Project/MyGame/cocos2d/external/empty.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05B9D9C059CA42E08FD412C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55B8F76F773049E69C1C2045 /* ext_md5 */;
+			targetProxy = DBBA78199D4043819292377C /* PBXContainerItemProxy */;
+		};
+		0C11942715DA4B7EA9C8F873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E8EECFA23584A19B6AC8E0A /* ext_xxtea */;
+			targetProxy = BAB7DDA4ED2F409F8551A8BF /* PBXContainerItemProxy */;
+		};
+		2BFE0B77377B4065810BC98D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F6EB58EB490415986724AED /* ext_convertUTF */;
+			targetProxy = BE243570A689488C9FB320CB /* PBXContainerItemProxy */;
+		};
+		2C0AFA6EB6F046298A7C7953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C2A56C49BC04E3D9C5930FB /* external */;
+			targetProxy = CDB2F1BAEC8948EBAB700AE4 /* PBXContainerItemProxy */;
+		};
+		32ED21BBFE6A42409246E4CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 131A30536865469C88C9A0EC /* ext_recast */;
+			targetProxy = 8CF57869CDC54955B9B0D503 /* PBXContainerItemProxy */;
+		};
+		3EAFEEBF6EF94D4F848841D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B86593D4D9941F78FF581FD /* ext_poly2tri */;
+			targetProxy = 267D0C74B30E43CA996BB843 /* PBXContainerItemProxy */;
+		};
+		43BA1A76D13142FF8C982A95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A6AD0A6A9BE46EF9B91B295 /* ext_edtaa3func */;
+			targetProxy = F0D175C0C95B40ACBC9131FD /* PBXContainerItemProxy */;
+		};
+		4B03B21074E9424EB221A062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 338D787E6E554C1C90EB07C5 /* ext_xxhash */;
+			targetProxy = 7DD741CD2F40462E9C7ECFFF /* PBXContainerItemProxy */;
+		};
+		58228AC7A2AE412A9EC53602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F6EB58EB490415986724AED /* ext_convertUTF */;
+			targetProxy = 23E8FEC9D626433DAB7608B4 /* PBXContainerItemProxy */;
+		};
+		62769AE5324044AC90F7E567 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A42151CA8974CA892FEED96 /* ZERO_CHECK */;
+			targetProxy = 8494BDA872844149A9B83E83 /* PBXContainerItemProxy */;
+		};
+		6817DE3F0D374A4B886D866B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 131A30536865469C88C9A0EC /* ext_recast */;
+			targetProxy = E289A455B9B24334BBAD4882 /* PBXContainerItemProxy */;
+		};
+		70A0EA67C71049F78D7D35FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55B8F76F773049E69C1C2045 /* ext_md5 */;
+			targetProxy = 63069FA6AB6F466F96A0C779 /* PBXContainerItemProxy */;
+		};
+		72730B926947405E952B7BEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A6AD0A6A9BE46EF9B91B295 /* ext_edtaa3func */;
+			targetProxy = A3AEC06FA70744BD838B1F36 /* PBXContainerItemProxy */;
+		};
+		734FDBB156894B828D945C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34084C22BCBF485B8522F204 /* ext_unzip */;
+			targetProxy = 2C43E4D8F5234107B41DEA7A /* PBXContainerItemProxy */;
+		};
+		888CB230D3EF465584308115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 338D787E6E554C1C90EB07C5 /* ext_xxhash */;
+			targetProxy = 6FC2F1747B184E9CBB59D851 /* PBXContainerItemProxy */;
+		};
+		8F370A0D4E49496DB963AC3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B86593D4D9941F78FF581FD /* ext_poly2tri */;
+			targetProxy = 8D3F9D50226F40408F9233D2 /* PBXContainerItemProxy */;
+		};
+		982AC1395F3F47EDAF1AF2E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A42151CA8974CA892FEED96 /* ZERO_CHECK */;
+			targetProxy = 2141494E95C64CD491FB2E26 /* PBXContainerItemProxy */;
+		};
+		9F4E0AB4C45441258DC16441 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93809C476A50479F8642AC5D /* ext_clipper */;
+			targetProxy = CD873FA70B3C4390BD90D936 /* PBXContainerItemProxy */;
+		};
+		A1012D256F6D438EB5C65CAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34084C22BCBF485B8522F204 /* ext_unzip */;
+			targetProxy = CB92E5F23996410595EA6718 /* PBXContainerItemProxy */;
+		};
+		A675E9B50E73428CAD5DD86E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93809C476A50479F8642AC5D /* ext_clipper */;
+			targetProxy = 6A34AF2C466B4B2AAE086BDE /* PBXContainerItemProxy */;
+		};
+		B14E6EF5D034470480AAE35A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7E8F0F15155448585E58238 /* ext_tinyxml2 */;
+			targetProxy = A6D750599F4A436F9754FFCC /* PBXContainerItemProxy */;
+		};
+		CB749E728D024A18AAA75C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E8EECFA23584A19B6AC8E0A /* ext_xxtea */;
+			targetProxy = 4B2E179F06C14EA185C7AE58 /* PBXContainerItemProxy */;
+		};
+		FFAE0ED495B8401DA6E2B3EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7E8F0F15155448585E58238 /* ext_tinyxml2 */;
+			targetProxy = C131C30A79D94110BB1A70E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		082F063256F74BEE99751CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/poly2tri;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		084ADDD2F66641E29DAF92E8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		08ADA06F68DA471EB00FD2D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/md5/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/md5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0DE146A6FB4A489C92E268A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		12121D248BC94495BA0B0BE4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/..,/Users/arlex/Documents/Project/MyGame/cocos2d/external/tinyxml2/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/xxhash/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/xxtea/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/clipper/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/edtaa3func/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/ConvertUTF/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/..,/Users/arlex/Documents/Project/MyGame/cocos2d/external/md5/..,/Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/Box2D/include,/Users/arlex/Documents/Project/MyGame/cocos2d/external/chipmunk/include,/Users/arlex/Documents/Project/MyGame/cocos2d/external/freetype2/include/mac/freetype2,/Users/arlex/Documents/Project/MyGame/cocos2d/external/bullet/include,/Users/arlex/Documents/Project/MyGame/cocos2d/external/bullet/include/bullet,/Users/arlex/Documents/Project/MyGame/cocos2d/external/jpeg/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/openssl/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/uv/include,/Users/arlex/Documents/Project/MyGame/cocos2d/external/webp/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/websockets/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/curl/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/png/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/glfw3/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/zlib/include,"/Users/arlex/Documents/Project/MyGame/cocos2d/external/glsl-optimizer/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		132D5EE1DD584BD8ABD97100 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/..,/Users/arlex/Documents/Project/MyGame/cocos2d/external/tinyxml2/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/xxhash/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/xxtea/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/clipper/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/edtaa3func/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/ConvertUTF/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/..,/Users/arlex/Documents/Project/MyGame/cocos2d/external/md5/..,/Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/Box2D/include,/Users/arlex/Documents/Project/MyGame/cocos2d/external/chipmunk/include,/Users/arlex/Documents/Project/MyGame/cocos2d/external/freetype2/include/mac/freetype2,/Users/arlex/Documents/Project/MyGame/cocos2d/external/bullet/include,/Users/arlex/Documents/Project/MyGame/cocos2d/external/bullet/include/bullet,/Users/arlex/Documents/Project/MyGame/cocos2d/external/jpeg/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/openssl/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/uv/include,/Users/arlex/Documents/Project/MyGame/cocos2d/external/webp/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/websockets/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/curl/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/png/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/glfw3/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/zlib/include,"/Users/arlex/Documents/Project/MyGame/cocos2d/external/glsl-optimizer/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1340698A933444998D3E31C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/tinyxml2/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		27ADC45D7A7D4D2B8401CE29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/build;
+			};
+			name = Release;
+		};
+		2BAAECBB7AFF40D5B41E6046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/xxhash/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2D5AE9AF626843F99DA0E4DE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		344EDA27022544259FA44C12 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/clipper/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/clipper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		37AA698F9D2740E5AB8B31E7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/xxhash/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3B67D25778044589A30BE825 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/build;
+			};
+			name = RelWithDebInfo;
+		};
+		40808E8B497B400DB539A545 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/zlib/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/unzip;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		473E445D0BED4F5CA871EC79 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/xxhash/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4AC139993F764F1EBA5A71C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/clipper/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/clipper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		51773B73C3E34BF68B73F7D1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/edtaa3func/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/edtaa3func;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		56D352ED3E564AF99186DA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/recast;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5D3B728E0B6F45D08B244855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/poly2tri;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5D7F5D82CE5A44BA80546272 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/recast;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6EF335D1ED2945B9B8B8F4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7508B54353CD4FB982BD303B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/clipper/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/clipper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7AF48596532D49D78F779A6F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/ConvertUTF/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/ConvertUTF;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7C38722B056440BE927F1B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/zlib/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/unzip;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		83514AE385624256BC83F0D5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/edtaa3func/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/edtaa3func;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		86BBBC847A36417BA09C44F1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/build;
+			};
+			name = MinSizeRel;
+		};
+		885E5C5B94224D3682025217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/tinyxml2/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8E916E916E7D41A4AD00EEB7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/tinyxml2/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		94BDA6C920164B4C980A5F4D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/clipper/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/clipper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9E07FE8A966B4CD7ADABF4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/ConvertUTF/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/ConvertUTF;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A42FE18C45B442E5BE37FE53 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AC5A35B31F59494BB2971C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/zlib/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/unzip;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B0C70D2D6B62462E8A436DA3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/xxtea/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/xxtea;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B6F9631B609C4191AE224C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/xxtea/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/xxtea;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B805F5A8203446248C21DA85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/ConvertUTF/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/ConvertUTF;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BA81992758C147C4864CC9F4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/recast;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BB69525FAED14C589424B24B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C006335DB43A4A3994723148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/edtaa3func/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/edtaa3func;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C85738310CD8404BB84B1918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/recast;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CE3C95BBAF8E4C8ABDE0AB8E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/ConvertUTF/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/ConvertUTF;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D696A16F32E840B09AB3ADF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DADCE273C4E1463AADC9E7A3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/md5/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/md5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E8830B4A1BD642669B5AFA9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/edtaa3func/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/edtaa3func;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E91A2B52F2F34709828AD0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/xxhash/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		ED347F217725475793B1FBB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/..,/Users/arlex/Documents/Project/MyGame/cocos2d/external/tinyxml2/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/xxhash/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/xxtea/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/clipper/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/edtaa3func/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/ConvertUTF/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/..,/Users/arlex/Documents/Project/MyGame/cocos2d/external/md5/..,/Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/Box2D/include,/Users/arlex/Documents/Project/MyGame/cocos2d/external/chipmunk/include,/Users/arlex/Documents/Project/MyGame/cocos2d/external/freetype2/include/mac/freetype2,/Users/arlex/Documents/Project/MyGame/cocos2d/external/bullet/include,/Users/arlex/Documents/Project/MyGame/cocos2d/external/bullet/include/bullet,/Users/arlex/Documents/Project/MyGame/cocos2d/external/jpeg/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/openssl/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/uv/include,/Users/arlex/Documents/Project/MyGame/cocos2d/external/webp/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/websockets/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/curl/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/png/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/glfw3/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/zlib/include,"/Users/arlex/Documents/Project/MyGame/cocos2d/external/glsl-optimizer/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EF1D09867E7442128C619E2E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/poly2tri;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EF6EBA4BC6204E3AA63022F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/xxtea/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/xxtea;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F26C7C3A286047548E54BBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/recast/..,/Users/arlex/Documents/Project/MyGame/cocos2d/external/tinyxml2/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/xxhash/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/xxtea/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/clipper/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/edtaa3func/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/ConvertUTF/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/..,/Users/arlex/Documents/Project/MyGame/cocos2d/external/md5/..,/Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/Box2D/include,/Users/arlex/Documents/Project/MyGame/cocos2d/external/chipmunk/include,/Users/arlex/Documents/Project/MyGame/cocos2d/external/freetype2/include/mac/freetype2,/Users/arlex/Documents/Project/MyGame/cocos2d/external/bullet/include,/Users/arlex/Documents/Project/MyGame/cocos2d/external/bullet/include/bullet,/Users/arlex/Documents/Project/MyGame/cocos2d/external/jpeg/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/openssl/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/uv/include,/Users/arlex/Documents/Project/MyGame/cocos2d/external/webp/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/websockets/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/curl/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/png/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/glfw3/include/mac,/Users/arlex/Documents/Project/MyGame/cocos2d/external/zlib/include,"/Users/arlex/Documents/Project/MyGame/cocos2d/external/glsl-optimizer/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F63F5442D51D41A6A0CA6F71 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/md5/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/md5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F6FA05FECF6542C8A06C24CF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F73796F2D71D4D3DB4FAB54A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/tinyxml2/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F876A1E792D24A618F4A1D6D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/unzip/.,/Users/arlex/Documents/Project/MyGame/cocos2d/external/zlib/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/unzip;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FC69130E80544E14986B025E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/xxtea/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/xxtea;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FD1D580A128549959B3C2F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/build;
+			};
+			name = Debug;
+		};
+		FF1B93EEF5654714BCD157D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/md5/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/md5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FF28CDE606A44CAE994BA87A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arlex/Documents/Project/MyGame/xcode/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arlex/Documents/Project/MyGame/cocos2d/external/poly2tri/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arlex/Documents/Project/MyGame/xcode/engine/external/poly2tri;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05D6DBD10E5C463D9F1726BA /* Build configuration list for PBXNativeTarget "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED347F217725475793B1FBB4 /* Debug */,
+				F26C7C3A286047548E54BBC4 /* Release */,
+				132D5EE1DD584BD8ABD97100 /* MinSizeRel */,
+				12121D248BC94495BA0B0BE4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		090FC148C36A4D3F9F702BE6 /* Build configuration list for PBXNativeTarget "ext_md5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08ADA06F68DA471EB00FD2D3 /* Debug */,
+				FF1B93EEF5654714BCD157D8 /* Release */,
+				F63F5442D51D41A6A0CA6F71 /* MinSizeRel */,
+				DADCE273C4E1463AADC9E7A3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		335BA727C13149B9851D4F18 /* Build configuration list for PBXNativeTarget "ext_convertUTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B805F5A8203446248C21DA85 /* Debug */,
+				9E07FE8A966B4CD7ADABF4E0 /* Release */,
+				7AF48596532D49D78F779A6F /* MinSizeRel */,
+				CE3C95BBAF8E4C8ABDE0AB8E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		372E98F6B37643219690BCE2 /* Build configuration list for PBXNativeTarget "ext_xxtea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6F9631B609C4191AE224C28 /* Debug */,
+				EF6EBA4BC6204E3AA63022F6 /* Release */,
+				B0C70D2D6B62462E8A436DA3 /* MinSizeRel */,
+				FC69130E80544E14986B025E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3989F08D39BB4A8F8AAB03AF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EF335D1ED2945B9B8B8F4FE /* Debug */,
+				BB69525FAED14C589424B24B /* Release */,
+				F6FA05FECF6542C8A06C24CF /* MinSizeRel */,
+				084ADDD2F66641E29DAF92E8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3F435CA70E38409596CCA01E /* Build configuration list for PBXNativeTarget "ext_xxhash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BAAECBB7AFF40D5B41E6046 /* Debug */,
+				E91A2B52F2F34709828AD0F7 /* Release */,
+				37AA698F9D2740E5AB8B31E7 /* MinSizeRel */,
+				473E445D0BED4F5CA871EC79 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		43F94DB259B54D9DAE45532D /* Build configuration list for PBXProject "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD1D580A128549959B3C2F6C /* Debug */,
+				27ADC45D7A7D4D2B8401CE29 /* Release */,
+				86BBBC847A36417BA09C44F1 /* MinSizeRel */,
+				3B67D25778044589A30BE825 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5C92AEAF511A4626B04999E3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D696A16F32E840B09AB3ADF6 /* Debug */,
+				0DE146A6FB4A489C92E268A6 /* Release */,
+				A42FE18C45B442E5BE37FE53 /* MinSizeRel */,
+				2D5AE9AF626843F99DA0E4DE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		82B5A4CCB7A74323BF6363BB /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8830B4A1BD642669B5AFA9D /* Debug */,
+				C006335DB43A4A3994723148 /* Release */,
+				83514AE385624256BC83F0D5 /* MinSizeRel */,
+				51773B73C3E34BF68B73F7D1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		89E984E3E1894BE58ABFD101 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3B728E0B6F45D08B244855 /* Debug */,
+				082F063256F74BEE99751CA1 /* Release */,
+				FF28CDE606A44CAE994BA87A /* MinSizeRel */,
+				EF1D09867E7442128C619E2E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E467941B74A1415FB271DFC0 /* Build configuration list for PBXNativeTarget "ext_clipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7508B54353CD4FB982BD303B /* Debug */,
+				4AC139993F764F1EBA5A71C5 /* Release */,
+				94BDA6C920164B4C980A5F4D /* MinSizeRel */,
+				344EDA27022544259FA44C12 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ECF224B98DC446A98B009A62 /* Build configuration list for PBXNativeTarget "ext_unzip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C38722B056440BE927F1B6D /* Debug */,
+				AC5A35B31F59494BB2971C7F /* Release */,
+				F876A1E792D24A618F4A1D6D /* MinSizeRel */,
+				40808E8B497B400DB539A545 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F82A1D3417BF400CAC596627 /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885E5C5B94224D3682025217 /* Debug */,
+				1340698A933444998D3E31C0 /* Release */,
+				8E916E916E7D41A4AD00EEB7 /* MinSizeRel */,
+				F73796F2D71D4D3DB4FAB54A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FF6A242DA437404E9C900E71 /* Build configuration list for PBXNativeTarget "ext_recast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85738310CD8404BB84B1918 /* Debug */,
+				56D352ED3E564AF99186DA11 /* Release */,
+				BA81992758C147C4864CC9F4 /* MinSizeRel */,
+				5D7F5D82CE5A44BA80546272 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50144619D5B54D70AA6F330E /* Project object */;
+}
