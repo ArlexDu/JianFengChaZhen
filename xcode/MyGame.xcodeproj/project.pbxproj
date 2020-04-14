@@ -364,6 +364,8 @@
 		7BB71A0AA8964E6DA9190875 /* CCTransitionPageTurn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5A57ADCD142A3902BF3FB /* CCTransitionPageTurn.cpp */; };
 		7C1C6B44FEE54843B5DC3D00 /* CCPUOnRandomObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDDF990B0B884904BE651598 /* CCPUOnRandomObserver.cpp */; };
 		7C60B0012A5F452592A4E45A /* CCSkin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8A79D9C7F924650B5DEC0C5 /* CCSkin.cpp */; };
+		7D0FADC1244569EF00F8932D /* WelcomeScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D0FADBF244569EF00F8932D /* WelcomeScene.cpp */; };
+		7D0FADC42445784F00F8932D /* GameMenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D0FADC22445784F00F8932D /* GameMenuScene.cpp */; };
 		7D9BDFED1CDA44AF9A1775A8 /* CCFileUtils-apple.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9942E8AE93FA426E8095FA36 /* CCFileUtils-apple.mm */; };
 		7DBCCDBC613943F1BE495F43 /* CCPUObserverManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66E5C57A2B004F69BD126C72 /* CCPUObserverManager.cpp */; };
 		7E101961D6254268B68EC4B9 /* CCPUSimpleSpline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EA83A0FEE174078B9F7C224 /* CCPUSimpleSpline.cpp */; };
@@ -1718,6 +1720,11 @@
 		7CFE736BD83047C4B0881347 /* AttachmentLoader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AttachmentLoader.cpp; path = "cocos2d/cocos/editor-support/spine/AttachmentLoader.cpp"; sourceTree = SOURCE_ROOT; };
 		7CFFAAF615E4437685435E4E /* CCActionEase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCActionEase.h; path = cocos2d/cocos/2d/CCActionEase.h; sourceTree = SOURCE_ROOT; };
 		7D0BFE5549924991AD5F72DF /* CCDatas.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCDatas.cpp; path = "cocos2d/cocos/editor-support/cocostudio/CCDatas.cpp"; sourceTree = SOURCE_ROOT; };
+		7D0FADBE2445642D00F8932D /* pic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pic1.jpg; path = Resources/pic1.jpg; sourceTree = "<group>"; };
+		7D0FADBF244569EF00F8932D /* WelcomeScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = WelcomeScene.cpp; path = Classes/WelcomeScene.cpp; sourceTree = "<group>"; };
+		7D0FADC0244569EF00F8932D /* WelcomeScene.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = WelcomeScene.hpp; path = Classes/WelcomeScene.hpp; sourceTree = "<group>"; };
+		7D0FADC22445784F00F8932D /* GameMenuScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GameMenuScene.cpp; path = Classes/GameMenuScene.cpp; sourceTree = "<group>"; };
+		7D0FADC32445784F00F8932D /* GameMenuScene.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = GameMenuScene.hpp; path = Classes/GameMenuScene.hpp; sourceTree = "<group>"; };
 		7D2A7B3B141849359D68D18F /* spine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = spine.h; path = "cocos2d/cocos/editor-support/spine/spine.h"; sourceTree = SOURCE_ROOT; };
 		7D4CC2B54DAF49C195B267D0 /* SkeletonRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SkeletonRenderer.cpp; path = "cocos2d/cocos/editor-support/spine/SkeletonRenderer.cpp"; sourceTree = SOURCE_ROOT; };
 		7D50FDB67E994FB6B7D386C8 /* ccRandom.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ccRandom.h; path = cocos2d/cocos/base/ccRandom.h; sourceTree = SOURCE_ROOT; };
@@ -3265,6 +3272,10 @@
 				50B0DFA0E1A441C1A53D03D7 /* AppDelegate.h */,
 				D4A1D60475E6421B8E92F7B4 /* HelloWorldScene.cpp */,
 				CADA20864925404E8BDC7C2E /* HelloWorldScene.h */,
+				7D0FADBF244569EF00F8932D /* WelcomeScene.cpp */,
+				7D0FADC0244569EF00F8932D /* WelcomeScene.hpp */,
+				7D0FADC22445784F00F8932D /* GameMenuScene.cpp */,
+				7D0FADC32445784F00F8932D /* GameMenuScene.hpp */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -3557,6 +3568,7 @@
 				3D9A7B5EBE2A47E7A7F15106 /* res */,
 				CA06636140084FB6ABE7D5C8 /* CloseNormal.png */,
 				B845F8B5DD88455E951C8DEE /* CloseSelected.png */,
+				7D0FADBE2445642D00F8932D /* pic1.jpg */,
 				3EE0F8C7C9304DDE86FE4EF7 /* HelloWorld.png */,
 				84751ADFDF604DEE822B5EF5 /* Info.plist */,
 			);
@@ -5494,9 +5506,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D0FADC42445784F00F8932D /* GameMenuScene.cpp in Sources */,
 				6B7D7D4742BA459BAFA2B533 /* AppDelegate.cpp in Sources */,
 				A7C36F961DC3466299FB5839 /* HelloWorldScene.cpp in Sources */,
 				BD8A52FE2BD440A3AB6FFBC1 /* main.cpp in Sources */,
+				7D0FADC1244569EF00F8932D /* WelcomeScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
