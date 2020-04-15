@@ -27,6 +27,9 @@ public:
     
     //初始化第一次登录数据
     void initFirstLoginData();
+    
+    //跳转到菜单界面
+    void replace2MenuScene();
 };
 
 #endif /* WelcomeScene_hpp */

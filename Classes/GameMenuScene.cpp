@@ -27,10 +27,10 @@ bool GameMenuScene::init(){
     
     auto visibleSize = Director::getInstance()->getWinSize();
     auto origin = Director::getInstance()->getVisibleOrigin();
-    CCLOG("origin x is %f",origin.x);
-    CCLOG("origin y is %f",origin.y);
-    CCLOG("width is %f",visibleSize.width);
-    CCLOG("height is %f",visibleSize.height);
+//    CCLOG("origin x is %f",origin.x);
+//    CCLOG("origin y is %f",origin.y);
+//    CCLOG("width is %f",visibleSize.width);
+//    CCLOG("height is %f",visibleSize.height);
     //绘制背景
     auto bg = Sprite::create("/Users/arlex/Documents/Project/MyGame/Resources/bg.png");
     bg->setPosition(visibleSize/2);
