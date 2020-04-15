@@ -2,7 +2,7 @@
 //  GameMenuScene.cpp
 //  MyGame
 //
-//  Created by 杜盛瑀 on 2020/4/14.
+//  Created by arlex on 2020/4/14.
 //
 
 #include "GameMenuScene.hpp"

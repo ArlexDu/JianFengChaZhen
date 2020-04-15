@@ -2,7 +2,7 @@
 //  GameMenuScene.hpp
 //  MyGame
 //
-//  Created by 杜盛瑀 on 2020/4/14.
+//  Created by arlex on 2020/4/14.
 //
 
 #ifndef GameMenuScene_hpp

@@ -366,6 +366,10 @@
 		7C60B0012A5F452592A4E45A /* CCSkin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8A79D9C7F924650B5DEC0C5 /* CCSkin.cpp */; };
 		7D0FADC1244569EF00F8932D /* WelcomeScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D0FADBF244569EF00F8932D /* WelcomeScene.cpp */; };
 		7D0FADC42445784F00F8932D /* GameMenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D0FADC22445784F00F8932D /* GameMenuScene.cpp */; };
+		7D0FADC72446DAC700F8932D /* CSVParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D0FADC52446DAC700F8932D /* CSVParser.cpp */; };
+		7D0FADC92446EFEC00F8932D /* game.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7D0FADC82446EFEC00F8932D /* game.csv */; };
+		7D0FADCB2446F06400F8932D /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 7D0FADCA2446F06400F8932D /* Readme.md */; };
+		7D0FADCE2446F0D600F8932D /* GameDataManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D0FADCC2446F0D600F8932D /* GameDataManager.cpp */; };
 		7D9BDFED1CDA44AF9A1775A8 /* CCFileUtils-apple.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9942E8AE93FA426E8095FA36 /* CCFileUtils-apple.mm */; };
 		7DBCCDBC613943F1BE495F43 /* CCPUObserverManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66E5C57A2B004F69BD126C72 /* CCPUObserverManager.cpp */; };
 		7E101961D6254268B68EC4B9 /* CCPUSimpleSpline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EA83A0FEE174078B9F7C224 /* CCPUSimpleSpline.cpp */; };
@@ -1725,6 +1729,12 @@
 		7D0FADC0244569EF00F8932D /* WelcomeScene.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = WelcomeScene.hpp; path = Classes/WelcomeScene.hpp; sourceTree = "<group>"; };
 		7D0FADC22445784F00F8932D /* GameMenuScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GameMenuScene.cpp; path = Classes/GameMenuScene.cpp; sourceTree = "<group>"; };
 		7D0FADC32445784F00F8932D /* GameMenuScene.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = GameMenuScene.hpp; path = Classes/GameMenuScene.hpp; sourceTree = "<group>"; };
+		7D0FADC52446DAC700F8932D /* CSVParser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CSVParser.cpp; path = Classes/CSVParser.cpp; sourceTree = "<group>"; };
+		7D0FADC62446DAC700F8932D /* CSVParser.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CSVParser.hpp; path = Classes/CSVParser.hpp; sourceTree = "<group>"; };
+		7D0FADC82446EFEC00F8932D /* game.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = game.csv; path = Resources/game.csv; sourceTree = "<group>"; };
+		7D0FADCA2446F06400F8932D /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		7D0FADCC2446F0D600F8932D /* GameDataManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GameDataManager.cpp; path = Classes/GameDataManager.cpp; sourceTree = "<group>"; };
+		7D0FADCD2446F0D600F8932D /* GameDataManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = GameDataManager.hpp; path = Classes/GameDataManager.hpp; sourceTree = "<group>"; };
 		7D2A7B3B141849359D68D18F /* spine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = spine.h; path = "cocos2d/cocos/editor-support/spine/spine.h"; sourceTree = SOURCE_ROOT; };
 		7D4CC2B54DAF49C195B267D0 /* SkeletonRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SkeletonRenderer.cpp; path = "cocos2d/cocos/editor-support/spine/SkeletonRenderer.cpp"; sourceTree = SOURCE_ROOT; };
 		7D50FDB67E994FB6B7D386C8 /* ccRandom.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ccRandom.h; path = cocos2d/cocos/base/ccRandom.h; sourceTree = SOURCE_ROOT; };
@@ -3276,6 +3286,10 @@
 				7D0FADC0244569EF00F8932D /* WelcomeScene.hpp */,
 				7D0FADC22445784F00F8932D /* GameMenuScene.cpp */,
 				7D0FADC32445784F00F8932D /* GameMenuScene.hpp */,
+				7D0FADC52446DAC700F8932D /* CSVParser.cpp */,
+				7D0FADC62446DAC700F8932D /* CSVParser.hpp */,
+				7D0FADCC2446F0D600F8932D /* GameDataManager.cpp */,
+				7D0FADCD2446F0D600F8932D /* GameDataManager.hpp */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -3564,6 +3578,7 @@
 		7E1B8BB1B32049FDBEB6677C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7D0FADC82446EFEC00F8932D /* game.csv */,
 				21DA6B42524F43BD97685A85 /* fonts */,
 				3D9A7B5EBE2A47E7A7F15106 /* res */,
 				CA06636140084FB6ABE7D5C8 /* CloseNormal.png */,
@@ -4522,6 +4537,7 @@
 		F20BFE38BF8F4CEE93BA5446 /* MyGame */ = {
 			isa = PBXGroup;
 			children = (
+				7D0FADCA2446F06400F8932D /* Readme.md */,
 				E76D51333553445C89DD2325 /* Source Files */,
 				7E1B8BB1B32049FDBEB6677C /* Resources */,
 				CC426CACE29249A190A79F2A /* CMakeLists.txt */,
@@ -4863,6 +4879,8 @@
 			files = (
 				EEF864F920B6410790BC798B /* Icon.icns in Resources */,
 				C3AECBF996BB41D8ADFFAEB2 /* Info.plist in Resources */,
+				7D0FADCB2446F06400F8932D /* Readme.md in Resources */,
+				7D0FADC92446EFEC00F8932D /* game.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5507,10 +5525,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D0FADC42445784F00F8932D /* GameMenuScene.cpp in Sources */,
+				7D0FADC72446DAC700F8932D /* CSVParser.cpp in Sources */,
 				6B7D7D4742BA459BAFA2B533 /* AppDelegate.cpp in Sources */,
 				A7C36F961DC3466299FB5839 /* HelloWorldScene.cpp in Sources */,
 				BD8A52FE2BD440A3AB6FFBC1 /* main.cpp in Sources */,
 				7D0FADC1244569EF00F8932D /* WelcomeScene.cpp in Sources */,
+				7D0FADCE2446F0D600F8932D /* GameDataManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,7 +2,7 @@
 //  WelcomeScene.hpp
 //  MyGame
 //
-//  Created by 杜盛瑀 on 2020/4/14.
+//  Created by arlex on 2020/4/14.
 //
 
 #ifndef WelcomeScene_hpp
@@ -24,6 +24,9 @@ public:
     
     //实现静态创建方法
     CREATE_FUNC(WelcomeScene);
+    
+    //初始化第一次登录数据
+    void initFirstLoginData();
 };
 
 #endif /* WelcomeScene_hpp */

@@ -2,10 +2,11 @@
 //  WelcomeScene.cpp
 //  MyGame
 //
-//  Created by 杜盛瑀 on 2020/4/14.
+//  Created by arlex on 2020/4/14.
 //
 
 #include "WelcomeScene.hpp"
+#include "GameDataManager.hpp"
 USING_NS_CC;
 //在AppDelegate中调用，获取包含WelcomeScene这个layer的scene
 Scene* WelcomeScene::createScene(){
@@ -42,5 +43,20 @@ bool WelcomeScene::init(){
     
     // add the sprite as a child to the layer
     this->addChild(sprite,0);
+    
+    initFirstLoginData();
+    //获得最大关卡数据
+    auto maxLevel = GameDataManager::getInstance()->getCurrentMaxLevel();
+    GameDataManager::getInstance()->loadGameData(maxLevel);
+}
+
+//初始化第一次登录数据
+void WelcomeScene::initFirstLoginData(){
+    if(!GameDataManager::getInstance()->getIsFirstInit()){
+        //设置已经初始化
+        GameDataManager::getInstance()->setIsFirstInit(true);
+        //初始化当前最大关卡
+        GameDataManager::getInstance()->setCurrentMaxLevel(1);
+    }
 }
 
