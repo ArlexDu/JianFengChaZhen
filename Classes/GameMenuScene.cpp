@@ -33,7 +33,7 @@ bool GameMenuScene::init(){
 //    CCLOG("width is %f",visibleSize.width);
 //    CCLOG("height is %f",visibleSize.height);
     //绘制背景
-    auto bg = Sprite::create("/Users/arlex/Documents/Project/MyGame/Resources/bg.png");
+    auto bg = Sprite::create("/Users/arlex/Documents/Project/MyGame/Resources/MenuScene/menuBg.jpg");
     bg->setPosition(visibleSize/2);
     float spx = bg->getTextureRect().getMaxX();
     float spy = bg->getTextureRect().getMaxY();
@@ -61,7 +61,7 @@ bool GameMenuScene::init(){
     level->addChild(levelTTF);
     
     //开始按钮
-    auto startBtn = MenuItemImage::create("/Users/arlex/Documents/Project/MyGame/Resources/start.png","/Users/arlex/Documents/Project/MyGame/Resources/start.png");
+    auto startBtn = MenuItemImage::create("/Users/arlex/Documents/Project/MyGame/Resources/MenuScene/startGame.png","/Users/arlex/Documents/Project/MyGame/Resources/MenuScene/startGame.png");
     startBtn->initWithCallback(CC_CALLBACK_1(GameMenuScene::onStartBtnPressed, this));
     startBtn->setPosition(visibleSize.width/2, visibleSize.height-300);
     
