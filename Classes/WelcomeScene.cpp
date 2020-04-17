@@ -75,9 +75,9 @@ void WelcomeScene::initFirstLoginData(){
 //跳转到载入场景
 void WelcomeScene::replace2MenuScene(){
     auto scene = GameMenuScene::createScene();
-    //Director::getInstance()->replaceScene(scene);
-    auto trans =TransitionCrossFade::create(1.5f, scene);
-    Director::getInstance()->replaceScene(trans);
+    Director::getInstance()->replaceScene(scene);
+//    auto trans =TransitionCrossFade::create(1.5f, scene);
+//    Director::getInstance()->replaceScene(trans);
     
 }
 

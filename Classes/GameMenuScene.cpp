@@ -6,6 +6,7 @@
 //
 
 #include "GameMenuScene.hpp"
+#include "GameMainScene.hpp"
 
 USING_NS_CC;
 
@@ -80,7 +81,8 @@ bool GameMenuScene::init(){
 
 // 开始游戏
 void GameMenuScene::onStartBtnPressed(Ref* pSender){
-    CCLOG("start Game");
+    auto scene = GameMainScene::createScene();
+    Director::getInstance()->replaceScene(TransitionCrossFade::create(1.0f,scene));
 }
 
 // 选择关卡
