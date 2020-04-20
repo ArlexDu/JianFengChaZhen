@@ -10,6 +10,8 @@
 #include "GameMenuScene.hpp"
 #include "Defines.h"
 #include "GlobalManager.hpp"
+#include "GameSuccessLayer.hpp"
+#include "GameFailedLayer.hpp"
 
 GameMainScene::GameMainScene():speed(0),userBallNum(0),rotate(NULL),isBallCollision(false),isCanTouch(false){
     
@@ -117,19 +119,25 @@ void GameMainScene::update(float dt){
         circle->stopAction(rotate);
         //停止update函数
         unscheduleUpdate();
-        createFailedLayer();
+        this->runAction(Sequence::create(
+                                         DelayTime::create(0.5f),
+                                         CallFunc::create(CC_CALLBACK_0(GameMainScene::createFailedLayer, this)),
+                                         NULL));
         return;
     }
     if(userBallNum == 0){
         unscheduleUpdate();
-        createSuccessLayer();
+        this->runAction(Sequence::create(
+                                         DelayTime::create(0.5f),
+                                         CallFunc::create(CC_CALLBACK_0(GameMainScene::createSuccessLayer, this)),
+                                         NULL));
     }
 }
 
 //绘制场景
 void GameMainScene::drawScene(){
     //绘制游戏背景
-    auto bg = Sprite::create("/Users/arlex/Documents/Project/MyGame/Resources/MainScene/bg.png");
+    auto bg = Sprite::create(RESOURCE_DIR+"MainScene/bg.png");
     bg->setPosition(WINSIZE/2);
     float spy = bg->getContentSize().height;
     bg->setScale(WINSIZE.height/spy, WINSIZE.height/spy);
@@ -137,8 +145,11 @@ void GameMainScene::drawScene(){
     
     //关卡
     auto level = Label::create();
+    //level->setWidth(WINSIZE.width/3);
+    //level->setHeight(70);
     level->setString(StringUtils::format("第 %d 关",GlobalManager::getInstance()->currentLevel));
     level->setPosition(WINSIZE.width/2,WINSIZE.height-83);
+    //level->setTextColor(Color4B(142.0f/255.0f,72.0f/255.0f,12.0f/255.0f,1));
     this->addChild(level);
     
     //投影
@@ -149,7 +160,7 @@ void GameMainScene::drawScene(){
     shadow->runAction(MoveBy::create(0.3f, Point(0,630)));*/
     
     //绘制中心圆
-    circle = Sprite::create("/Users/arlex/Documents/Project/MyGame/Resources/MainScene/circle.png");
+    circle = Sprite::create(RESOURCE_DIR+"MainScene/circle.png");
     circle->setPosition(WINSIZE.width/2,POSY);
     //中心圆的大小应该是屏幕的1/5
     float circleSpx = WINSIZE.width*0.2f/circle->getContentSize().width;
@@ -266,7 +277,7 @@ void GameMainScene::addUserBallToCircle(Ball *ball){
     float circleSpx = WINSIZE.width*0.2f/circle->getContentSize().width;
     newBall->setScale(WINSIZE.width*0.05/spx/circleSpx, WINSIZE.width*0.05/spx/circleSpx);
     //convertToNodeSpace函数：把世界坐标转变为物体坐标，因为这里需要把新的小球加入circle的子节点，所以用circle的相对坐标设置
-    CCLOG("circle x: %f, y: %f",circle->getPosition().x,circle->getPosition().y);
+    //CCLOG("circle x: %f, y: %f",circle->getPosition().x,circle->getPosition().y);
     newBall->setPosition(circle->convertToNodeSpace(Point(WINSIZE.width/2,circle->getPosition().y-RADIUS)));
     circle->addChild(newBall);
     
@@ -300,12 +311,13 @@ void GameMainScene::checkIsBallCollision(Ball *userBall, Ball *circleBall){
 //创建失败层
 void GameMainScene::createFailedLayer(){
     CCLOG("end game");
+    Director::getInstance()->replaceScene(GameFailedLayer::createScene());
 }
 
 //创建胜利层
 void GameMainScene::createSuccessLayer(){
-    CCLOG("is ball collision is %d",isBallCollision);
     CCLOG("success game");
+    Director::getInstance()->replaceScene(GameSuccessLayer::createScene());
 }
 
 //游戏暂停按钮

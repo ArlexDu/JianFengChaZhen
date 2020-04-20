@@ -20,14 +20,14 @@ Ball::~Ball(){
 
 Ball* Ball::create(int num){
     Ball *ball = new Ball();
-    ball->initWithFile("/Users/arlex/Documents/Project/MyGame/Resources/MainScene/luoxuanwan.png");
+    ball->initWithFile(RESOURCE_DIR+"MainScene/luoxuanwan.png");
     if(num!=0){
         ball->numTTF = Label::create();
         ball->numTTF->setString(to_string(num));
         ball->numTTF->setPosition(ball->getContentSize()/2);
         ball->addChild(ball->numTTF);
     }else{
-        ball->setTexture("/Users/arlex/Documents/Project/MyGame/Resources/MainScene/ball.png");
+        ball->setTexture(RESOURCE_DIR+"MainScene/ball.png");
     }
     
     return ball;

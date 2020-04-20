@@ -8,6 +8,7 @@
 #include "WelcomeScene.hpp"
 #include "GameDataManager.hpp"
 #include "GameMenuScene.hpp"
+#include "Defines.h"
 
 USING_NS_CC;
 //在AppDelegate中调用，获取包含WelcomeScene这个layer的scene
@@ -38,7 +39,7 @@ bool WelcomeScene::init(){
     auto origin = Director::getInstance()->getVisibleOrigin();
     
     // add welcome page
-    auto sprite = Sprite::create("/Users/arlex/Documents/Project/MyGame/Resources/welcome.png");
+    auto sprite = Sprite::create(RESOURCE_DIR+"/welcome.png");
     
     // set the sprite position in the center fo layer
     sprite->setPosition(Vec2(visibleSize.width/2+origin.x,visibleSize.height/2+origin.y));

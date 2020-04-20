@@ -32,7 +32,7 @@ string to_string(const T& t){
 }
 #endif
 
-#define RESOURCE_DIR "/Users/arlex/Documents/Project/MyGame/Resources/MainScene"
+const string RESOURCE_DIR = "/Users/arlex/Documents/Project/MyGame/Resources/";
 
 //针的长度
 #define RADIUS 150

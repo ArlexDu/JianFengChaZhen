@@ -7,6 +7,7 @@
 
 #include "GameMenuScene.hpp"
 #include "GameMainScene.hpp"
+#include "Defines.h"
 
 USING_NS_CC;
 
@@ -33,7 +34,7 @@ bool GameMenuScene::init(){
 //    CCLOG("width is %f",visibleSize.width);
 //    CCLOG("height is %f",visibleSize.height);
     //绘制背景
-    auto bg = Sprite::create("/Users/arlex/Documents/Project/MyGame/Resources/MenuScene/menuBg.jpg");
+    auto bg = Sprite::create(RESOURCE_DIR+"MenuScene/menuBg.jpg");
     bg->setPosition(visibleSize/2);
     float spx = bg->getTextureRect().getMaxX();
     float spy = bg->getTextureRect().getMaxY();
@@ -41,32 +42,32 @@ bool GameMenuScene::init(){
     this->addChild(bg);
     
     //标题
-    auto title = Sprite::create("/Users/arlex/Documents/Project/MyGame/Resources/title.png");
+    auto title = Sprite::create(RESOURCE_DIR+"title.png");
     title->setPosition(Vec2(visibleSize.width/2,visibleSize.height-100));
     spx = title->getTextureRect().getMaxX();
     title->setScale(visibleSize.width*0.8f/spx,visibleSize.width*0.8f/spx);
     this->addChild(title);
     
     //关卡
-    auto level = Sprite::create("/Users/arlex/Documents/Project/MyGame/Resources/level.png");
+    auto level = Sprite::create(RESOURCE_DIR+"level.png");
     level->setPosition(Vec2(visibleSize.width/2,visibleSize.height-200));
     spx = level->getTextureRect().getMaxX();
     level->setScale(visibleSize.width*0.2f/spx,visibleSize.width*0.2f/spx);
     this->addChild(level);
     
     //关卡数字
-    auto levelTTF = Label::createWithCharMap("/Users/arlex/Documents/Project/MyGame/Resources/label_ball.png", 14, 20, '0');
+    auto levelTTF = Label::createWithCharMap(RESOURCE_DIR+"label_ball.png", 14, 20, '0');
     levelTTF->setString(StringUtils::format("%d",1));
     levelTTF->setPosition(level->getContentSize()/2);
     level->addChild(levelTTF);
     
     //开始按钮
-    auto startBtn = MenuItemImage::create("/Users/arlex/Documents/Project/MyGame/Resources/MenuScene/startGame.png","/Users/arlex/Documents/Project/MyGame/Resources/MenuScene/startGame.png");
+    auto startBtn = MenuItemImage::create(RESOURCE_DIR+"MenuScene/startGame.png",RESOURCE_DIR+"MenuScene/startGame.png");
     startBtn->initWithCallback(CC_CALLBACK_1(GameMenuScene::onStartBtnPressed, this));
     startBtn->setPosition(visibleSize.width/2, visibleSize.height-300);
     
     //选择关卡按钮
-    auto selectBtn = MenuItemImage::create("/Users/arlex/Documents/Project/MyGame/Resources/select.png","/Users/arlex/Documents/Project/MyGame/Resources/select.png");
+    auto selectBtn = MenuItemImage::create(RESOURCE_DIR+"select.png",RESOURCE_DIR+"select.png");
     selectBtn->initWithCallback(CC_CALLBACK_1(GameMenuScene::onSelectBtnPressed, this));
     selectBtn->setPosition(visibleSize.width/2+20, visibleSize.height-400);
     spx = selectBtn->getContentSize().width;

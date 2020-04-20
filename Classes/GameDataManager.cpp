@@ -7,6 +7,7 @@
 
 #include "GameDataManager.hpp"
 #include <cstring>
+#include "Defines.h"
 
 GameDataManager* GameDataManager::singleInstance = NULL;
 
@@ -18,7 +19,7 @@ GameDataManager* GameDataManager::getInstance(){
 }
 
 //c++构造函数后面跟“：”也表示赋值
-GameDataManager::GameDataManager():csv("/Users/arlex/Documents/Project/MyGame/Resources/game.csv"){
+GameDataManager::GameDataManager():csv(RESOURCE_DIR+"game.csv"){
     totalRow = csv.getRowCount()-1;
 }
 
