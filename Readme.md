@@ -5,14 +5,14 @@
 
 ### 页面展示
 #### 主菜单页面
-![image](https://github.com/ArlexDu/JianFengChaZhen/image/menu.png)
+![image](https://github.com/ArlexDu/JianFengChaZhen/blob/master/images/menu.png)
 #### 游戏页面
-![image](https://github.com/ArlexDu/JianFengChaZhen/image/game1.png)
-![image](https://github.com/ArlexDu/JianFengChaZhen/image/game2.png)
+![image](https://github.com/ArlexDu/JianFengChaZhen/blob/master/images/game1.png)
+![image](https://github.com/ArlexDu/JianFengChaZhen/blob/master/images/game2.png)
 #### 挑战成功页面
-![image](https://github.com/ArlexDu/JianFengChaZhen/image/success.png)
+![image](https://github.com/ArlexDu/JianFengChaZhen/blob/master/images/success.png)
 #### 挑战失败页面
-![image](https://github.com/ArlexDu/JianFengChaZhen/image/failed.png)
+![image](https://github.com/ArlexDu/JianFengChaZhen/blob/master/images/failed.png)
 #### 选关页面
-![image](https://github.com/ArlexDu/JianFengChaZhen/image/level.png)
+![image](https://github.com/ArlexDu/JianFengChaZhen/blob/master/images/level.png)
 
