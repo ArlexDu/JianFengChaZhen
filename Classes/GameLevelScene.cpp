@@ -133,8 +133,7 @@ void GameLevelScene::onTouchEnded(Touch *touch, Event *event){
         }else{
             pageIndex = LEVEL_PAGES;
         }
-    }
-    if((pos1.x-pos2.x)<=-50){
+    }else if((pos1.x-pos2.x)<=-50){
         //向前翻页
         if(pageIndex>1){
             if(levelLayer->getNumberOfRunningActions() == 0){
