@@ -82,7 +82,7 @@ bool GameLevelScene::init(){
         item->setScale(WINSIZE.width*0.15/spx, WINSIZE.width*0.15/spx);
         float x =WINSIZE.width*(int)(index/PAGE_CONTIANER_MAX)+80+index%5*(item->getContentSize().width*1.8f);
         float y =WINSIZE.height*0.9f-(index%PAGE_CONTIANER_MAX)/5*(item->getContentSize().height*1.8f);
-        CCLOG("x is %f, y is %f",x,y);
+        //CCLOG("x is %f, y is %f",x,y);
         item->setPosition(x,y);
         auto menu = Menu::create(item,NULL);
         menu->setPosition(Point::ZERO);

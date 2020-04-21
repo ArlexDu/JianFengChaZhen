@@ -24,7 +24,7 @@
 
 #include "AppDelegate.h"
 #include "WelcomeScene.hpp"
-
+#include "editor-support/cocostudio/SimpleAudioEngine.h"
 // #define USE_AUDIO_ENGINE 1
 
 #if USE_AUDIO_ENGINE
@@ -120,7 +120,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 // This function will be called when the app is inactive. Note, when receiving a phone call it is invoked.
 void AppDelegate::applicationDidEnterBackground() {
     Director::getInstance()->stopAnimation();
-
+    CocosDenshion::SimpleAudioEngine::getInstance()->pauseBackgroundMusic();
 #if USE_AUDIO_ENGINE
     AudioEngine::pauseAll();
 #endif
@@ -129,7 +129,7 @@ void AppDelegate::applicationDidEnterBackground() {
 // this function will be called when the app is active again
 void AppDelegate::applicationWillEnterForeground() {
     Director::getInstance()->startAnimation();
-
+    CocosDenshion::SimpleAudioEngine::getInstance()->resumeBackgroundMusic();
 #if USE_AUDIO_ENGINE
     AudioEngine::resumeAll();
 #endif

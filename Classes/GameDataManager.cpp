@@ -101,8 +101,6 @@ int GameDataManager::getEndAngle(int level){
     return endAngle;
 }
 
-//用户数据
-
 //是否初始化
 bool GameDataManager::getIsFirstInit(){
     auto isInit = UserDefault::getInstance()->getBoolForKey("_IsInitGameData");

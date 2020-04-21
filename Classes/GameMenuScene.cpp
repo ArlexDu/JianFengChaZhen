@@ -10,6 +10,7 @@
 #include "Defines.h"
 #include "GlobalManager.hpp"
 #include "GameLevelScene.hpp"
+#include "GameMusic.hpp"
 
 USING_NS_CC;
 
@@ -86,6 +87,9 @@ bool GameMenuScene::init(){
     spx = bottom->getContentSize().width;
     bottom->setScale(WINSIZE.width/spx,WINSIZE.width/spx);
     this->addChild(bottom);
+    
+    //增加背景音乐
+    GameMusic::getInstance()->playMusic((RESOURCE_DIR+"Audios/Naruto Main Theme.mp3").c_str(),true);
     
     return true;
 }

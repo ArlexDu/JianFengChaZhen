@@ -198,7 +198,7 @@ namespace CSVParser{
         for(unsigned int i=0;i<m_content[0].size();i++){
             m_header.push_back(m_content[0][i]);
         }
-        for(unsigned int i=0;i<m_content[0].size();i++){
+        for(unsigned int i=0;i<m_content.size();i++){
             m_content[i].setHeader(&m_header);
         }
     }
