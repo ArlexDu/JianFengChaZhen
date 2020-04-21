@@ -50,12 +50,12 @@ bool GameMainScene::init(){
     touchListener->onTouchMoved = CC_CALLBACK_2(GameMainScene::onTouchMoved,this);
     touchListener->onTouchEnded = CC_CALLBACK_2(GameMainScene::onTouchEnded,this);
     touchListener->onTouchCancelled = CC_CALLBACK_2(GameMainScene::onTouchCancelled, this);
-    _eventDispatcher->addEventListenerWithSceneGraphPriority(touchListener, this);
+    Director::getInstance()->getEventDispatcher()->addEventListenerWithSceneGraphPriority(touchListener, this);
     
     //注册捕捉监听
     auto listenerKeyPad = EventListenerKeyboard::create();
     listenerKeyPad->onKeyReleased=CC_CALLBACK_2(GameMainScene::onKeyReleased, this);
-    _eventDispatcher->addEventListenerWithSceneGraphPriority(listenerKeyPad, this);
+    Director::getInstance()->getEventDispatcher()->addEventListenerWithSceneGraphPriority(listenerKeyPad, this);
     
     //每一帧执行update函数
     scheduleUpdate();
@@ -144,12 +144,10 @@ void GameMainScene::drawScene(){
     this->addChild(bg);
     
     //关卡
-    auto level = Label::create();
-    //level->setWidth(WINSIZE.width/3);
-    //level->setHeight(70);
-    level->setString(StringUtils::format("第 %d 关",GlobalManager::getInstance()->currentLevel));
-    level->setPosition(WINSIZE.width/2,WINSIZE.height-83);
-    //level->setTextColor(Color4B(142.0f/255.0f,72.0f/255.0f,12.0f/255.0f,1));
+    auto level = Label::createWithTTF("",RESOURCE_DIR+"fonts/I-PenCrane-B-2.ttf", 30);
+    level->setString(StringUtils::format("第 %d 關",GlobalManager::getInstance()->currentLevel));
+    level->setColor(Color3B(142.0f/255.0f,72.0f/255.0f,12.0f/255.0f));
+    level->setPosition(WINSIZE.width/2,WINSIZE.height-50);
     this->addChild(level);
     
     //投影
@@ -209,6 +207,17 @@ void GameMainScene::drawScene(){
     }
     drawDot->setVisible(true);
     
+    //返回按钮
+    auto backBtn = MenuItemImage::create(RESOURCE_DIR+"levelScene/back.png",
+                                         RESOURCE_DIR+"levelScene/back.png",
+                                         CC_CALLBACK_1(GameMainScene::onBackBtnPressed,this));
+    float spx = backBtn->getContentSize().width;
+    backBtn->setScale(WINSIZE.width*0.06/spx, WINSIZE.width*0.06/spx);
+    backBtn->setPosition(50,WINSIZE.height-50);
+    
+    auto menu = Menu::create(backBtn,NULL);
+    menu->setPosition(Point::ZERO);
+    this->addChild(menu,1);
     /*//暂停按钮
     auto pause=MenuItemImage::create(
                                 "pause.png",
@@ -333,6 +342,11 @@ void GameMainScene::onAuxiliaryLineBtnPressed(Ref *pSender){
 //游戏帮助按钮
 void GameMainScene::onHelpBtnPressed(Ref *pSender){
     
+}
+
+//游戏返回按钮
+void GameMainScene::onBackBtnPressed(Ref *pSender){
+     Director::getInstance()->replaceScene(GameMenuScene::createScene());
 }
 
 //绘制飞行小球

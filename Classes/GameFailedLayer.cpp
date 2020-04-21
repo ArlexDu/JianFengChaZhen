@@ -47,11 +47,10 @@ void GameFailedLayer::initWinLayer(){
     this->addChild(bgFailed);
     
     //过关文字
-    auto loseText = Label::create();
-    loseText->setString("过关失败");
-    loseText->setBMFontSize(50);
-    loseText->setPosition(loseText->getContentSize()/2);
-    bgFailed->addChild(loseText);
+    auto loseText = Label::createWithTTF("失 敗",RESOURCE_DIR+"fonts/I-PenCrane-B-2.ttf", 60);
+    loseText->setPosition(WINSIZE.width/2,WINSIZE.height*0.55f);
+    loseText->setColor(Color3B(142.0f/255.0f,72.0f/255.0f,12.0f/255.0f));
+    this->addChild(loseText);
     
     //选关按钮
     auto selectBtn = MenuItemImage::create(RESOURCE_DIR+"ResultScene/selectLevel.png",RESOURCE_DIR+"ResultScene/selectLevel.png");

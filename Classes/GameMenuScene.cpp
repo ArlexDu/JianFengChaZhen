@@ -8,6 +8,8 @@
 #include "GameMenuScene.hpp"
 #include "GameMainScene.hpp"
 #include "Defines.h"
+#include "GlobalManager.hpp"
+#include "GameLevelScene.hpp"
 
 USING_NS_CC;
 
@@ -27,55 +29,63 @@ bool GameMenuScene::init(){
         return false;
     }
     
-    auto visibleSize = Director::getInstance()->getWinSize();
     auto origin = Director::getInstance()->getVisibleOrigin();
 //    CCLOG("origin x is %f",origin.x);
 //    CCLOG("origin y is %f",origin.y);
 //    CCLOG("width is %f",visibleSize.width);
 //    CCLOG("height is %f",visibleSize.height);
     //绘制背景
-    auto bg = Sprite::create(RESOURCE_DIR+"MenuScene/menuBg.jpg");
-    bg->setPosition(visibleSize/2);
+    auto bg = Sprite::create(RESOURCE_DIR+"MainScene/bg.png");
+    bg->setPosition(WINSIZE/2);
     float spx = bg->getTextureRect().getMaxX();
     float spy = bg->getTextureRect().getMaxY();
-    bg->setScale(visibleSize.width/spx,visibleSize.height/spy);
+    bg->setScale(WINSIZE.width/spx,WINSIZE.height/spy);
     this->addChild(bg);
     
     //标题
-    auto title = Sprite::create(RESOURCE_DIR+"title.png");
-    title->setPosition(Vec2(visibleSize.width/2,visibleSize.height-100));
+    auto title = Sprite::create(RESOURCE_DIR+"MenuScene/title.png");
+    title->setPosition(Vec2(WINSIZE.width/2,WINSIZE.height-100));
     spx = title->getTextureRect().getMaxX();
-    title->setScale(visibleSize.width*0.8f/spx,visibleSize.width*0.8f/spx);
+    title->setScale(WINSIZE.width*0.8f/spx,WINSIZE.width*0.8f/spx);
     this->addChild(title);
     
-    //关卡
-    auto level = Sprite::create(RESOURCE_DIR+"level.png");
-    level->setPosition(Vec2(visibleSize.width/2,visibleSize.height-200));
-    spx = level->getTextureRect().getMaxX();
-    level->setScale(visibleSize.width*0.2f/spx,visibleSize.width*0.2f/spx);
-    this->addChild(level);
-    
     //关卡数字
-    auto levelTTF = Label::createWithCharMap(RESOURCE_DIR+"label_ball.png", 14, 20, '0');
-    levelTTF->setString(StringUtils::format("%d",1));
-    levelTTF->setPosition(level->getContentSize()/2);
-    level->addChild(levelTTF);
+    auto levelTTF = Label::createWithTTF("",RESOURCE_DIR+"fonts/I-PenCrane-B-2.ttf", 30);
+    levelTTF->setString(StringUtils::format("第 %d 關",GlobalManager::getInstance()->currentLevel));
+    levelTTF->setColor(Color3B(142.0f/255.0f,72.0f/255.0f,12.0f/255.0f));
+    levelTTF->setPosition(Vec2(WINSIZE.width/2,WINSIZE.height-200));
+    this->addChild(levelTTF);
     
     //开始按钮
-    auto startBtn = MenuItemImage::create(RESOURCE_DIR+"MenuScene/startGame.png",RESOURCE_DIR+"MenuScene/startGame.png");
+    auto startBtn = MenuItemImage::create(RESOURCE_DIR+"MenuScene/start.png",RESOURCE_DIR+"MenuScene/start.png");
     startBtn->initWithCallback(CC_CALLBACK_1(GameMenuScene::onStartBtnPressed, this));
-    startBtn->setPosition(visibleSize.width/2, visibleSize.height-300);
+    startBtn->setPosition(WINSIZE.width/2, WINSIZE.height-300);
     
-    //选择关卡按钮
-    auto selectBtn = MenuItemImage::create(RESOURCE_DIR+"select.png",RESOURCE_DIR+"select.png");
-    selectBtn->initWithCallback(CC_CALLBACK_1(GameMenuScene::onSelectBtnPressed, this));
-    selectBtn->setPosition(visibleSize.width/2+20, visibleSize.height-400);
-    spx = selectBtn->getContentSize().width;
-    selectBtn->setScale(visibleSize.width*0.5f/spx,visibleSize.width*0.5f/spx);
-
-    auto menu = Menu::create(startBtn,selectBtn,NULL);
+    auto menu = Menu::create(startBtn,NULL);
     menu->setPosition(Point::ZERO);
     this->addChild(menu);
+
+    //选择关卡文字
+    auto selectTTF = Label::createWithTTF("選擇關卡",RESOURCE_DIR+"fonts/I-PenCrane-B-2.ttf", 30);
+    selectTTF->setColor(Color3B(142.0f/255.0f,72.0f/255.0f,12.0f/255.0f));
+    selectTTF->setPosition(WINSIZE.width/2, WINSIZE.height-400);
+    this->addChild(selectTTF);
+    
+    auto listener = EventListenerTouchOneByOne::create();
+    listener->setSwallowTouches(false);
+    listener->onTouchBegan = [](Touch* t,Event* e){
+        return true;
+    };
+    listener->onTouchEnded = CC_CALLBACK_1(GameMenuScene::onSelectBtnPressed, this);
+    Director::getInstance()->getEventDispatcher()->addEventListenerWithSceneGraphPriority(listener, this);
+    
+    //底部装饰
+    auto bottom = MenuItemImage::create(RESOURCE_DIR+"MenuScene/bottom.png",RESOURCE_DIR+"MenuScene/bottom.png");
+    bottom->setAnchorPoint(Vec2(0.5,0));
+    bottom->setPosition(WINSIZE.width/2, 50);
+    spx = bottom->getContentSize().width;
+    bottom->setScale(WINSIZE.width/spx,WINSIZE.width/spx);
+    this->addChild(bottom);
     
     return true;
 }
@@ -88,5 +98,5 @@ void GameMenuScene::onStartBtnPressed(Ref* pSender){
 
 // 选择关卡
 void GameMenuScene::onSelectBtnPressed(Ref* pSender){
-    CCLOG("select Level");
+    Director::getInstance()->replaceScene(GameLevelScene::createScene());
 }

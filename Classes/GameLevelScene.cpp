@@ -48,8 +48,9 @@ bool GameLevelScene::init(){
                                       RESOURCE_DIR+"levelScene/back.png",
                                       CC_CALLBACK_1(GameLevelScene::onBackBtnPressed,this));
     float spx = backBtn->getContentSize().width;
-    backBtn->setScale(WINSIZE.width*0.1/spx, WINSIZE.width*0.1/spx);
-    backBtn->setPosition(Point::ZERO);
+    backBtn->setScale(WINSIZE.width*0.08/spx, WINSIZE.width*0.08/spx);
+    backBtn->setAnchorPoint(Vec2(0.5,0));
+    backBtn->setPosition(WINSIZE.width/2,50);
     
     auto menu = Menu::create(backBtn,NULL);
     menu->setPosition(Point::ZERO);
@@ -100,12 +101,12 @@ bool GameLevelScene::init(){
     touchListener->onTouchBegan = CC_CALLBACK_2(GameLevelScene::onTouchBegan, this);
     touchListener->onTouchMoved = CC_CALLBACK_2(GameLevelScene::onTouchMoved, this);
     touchListener->onTouchEnded = CC_CALLBACK_2(GameLevelScene::onTouchEnded, this);
-    _eventDispatcher->addEventListenerWithSceneGraphPriority(touchListener, this);
+    Director::getInstance()->getEventDispatcher()->addEventListenerWithSceneGraphPriority(touchListener, this);
     
     //注册捕捉函数
     auto listenerKeyPad = EventListenerKeyboard::create();
     listenerKeyPad->onKeyReleased = CC_CALLBACK_2(GameLevelScene::onKeyReleased, this);
-    _eventDispatcher->addEventListenerWithSceneGraphPriority(listenerKeyPad, this);
+    Director::getInstance()->getEventDispatcher()->addEventListenerWithSceneGraphPriority(listenerKeyPad, this);
     return true;
 }
 
@@ -122,7 +123,7 @@ void GameLevelScene::onTouchMoved(Touch *touch, Event *event){
 
 //触摸结束方法
 void GameLevelScene::onTouchEnded(Touch *touch, Event *event){
-    if(pos1.x-pos2.x>100){
+    if((pos1.x-pos2.x)>=50){
         //向后翻页
         if(pageIndex<LEVEL_PAGES){
             if(levelLayer->getNumberOfRunningActions() == 0){
@@ -132,16 +133,16 @@ void GameLevelScene::onTouchEnded(Touch *touch, Event *event){
         }else{
             pageIndex = LEVEL_PAGES;
         }
-        if(pos1.x-pos2.x<-100){
-            //向前翻页
-            if(pageIndex>1){
-                if(levelLayer->getNumberOfRunningActions() == 0){
-                    levelLayer->runAction(MoveTo::create(0.5f,Point(-WINSIZE.width*(pageIndex-2),0)));
-                }
+    }
+    if((pos1.x-pos2.x)<=-50){
+        //向前翻页
+        if(pageIndex>1){
+            if(levelLayer->getNumberOfRunningActions() == 0){
+                levelLayer->runAction(MoveTo::create(0.5f,Point(-WINSIZE.width*(pageIndex-2),0)));
             }
-        }else{
-            pageIndex = 1;
         }
+    }else{
+        pageIndex = 1;
     }
 }
 

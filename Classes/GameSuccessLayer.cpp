@@ -46,11 +46,10 @@ void GameSuccessLayer::initWinLayer(){
     this->addChild(bgWin);
     
     //过关文字
-    auto winText = Label::create();
-    winText->setString("恭喜过关");
-    winText->setBMFontSize(50);
-    winText->setPosition(winText->getContentSize()/2);
-    bgWin->addChild(winText);
+    auto winText = Label::createWithTTF("勝 利",RESOURCE_DIR+"fonts/I-PenCrane-B-2.ttf", 60);
+    winText->setPosition(WINSIZE.width/2,WINSIZE.height*0.55);
+    winText->setColor(Color3B(142.0f/255.0f,72.0f/255.0f,12.0f/255.0f));
+    this->addChild(winText);
     
     //选关按钮
     auto selectBtn = MenuItemImage::create(RESOURCE_DIR+"ResultScene/selectLevel.png",RESOURCE_DIR+"ResultScene/selectLevel.png");
@@ -90,7 +89,9 @@ void GameSuccessLayer::onSharedBtnPressed(Ref *pSender){
 
 //进入下一关
 void GameSuccessLayer::onNextLevelBtnPressed(Ref *pSender){
-    if(!GlobalManager::getInstance()->currentLevel>=GameDataManager::getInstance()->totalRow){
+    int curr = GlobalManager::getInstance()->currentLevel;
+    int maxLevel = GameDataManager::getInstance()->totalRow;
+    if(curr>=maxLevel){
         //如果已经是最后一关，则调回到游戏主菜单页面
         Director::getInstance()->replaceScene(GameMenuScene::createScene());
     }else{

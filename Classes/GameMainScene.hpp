@@ -66,6 +66,8 @@ public:
     void onAuxiliaryLineBtnPressed(Ref* pSender);
     //帮助按钮
     void onHelpBtnPressed(Ref* pSender);
+    //返回按钮
+    void onBackBtnPressed(Ref *pSender);
 private:
     //旋转速度（度/秒）
     float speed;

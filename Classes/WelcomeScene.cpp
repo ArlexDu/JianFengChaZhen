@@ -9,6 +9,7 @@
 #include "GameDataManager.hpp"
 #include "GameMenuScene.hpp"
 #include "Defines.h"
+#include "GlobalManager.hpp"
 
 USING_NS_CC;
 //在AppDelegate中调用，获取包含WelcomeScene这个layer的scene
@@ -69,7 +70,9 @@ void WelcomeScene::initFirstLoginData(){
         GameDataManager::getInstance()->setCurrentMaxLevel(1);
     }
     //获得最大关卡数据
+    UserDefault::getInstance()->setIntegerForKey("current_max_level", 5);
     auto maxLevel = GameDataManager::getInstance()->getCurrentMaxLevel();
+    GlobalManager::getInstance()->currentLevel = maxLevel;
     GameDataManager::getInstance()->loadGameData(maxLevel);
 }
 
